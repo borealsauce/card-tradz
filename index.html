@@ -12,14 +12,14 @@
 </head><body>
 <div class="demo-banner">Demo — no real trades or payments. Sample data only.</div>
 <header class="topbar">
-  <a href="#/market" class="brand" aria-label="Card Tradz home">
+  <a href="#/portfolio" class="brand" aria-label="Card Tradz home">
     <svg class="logo" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14e0a8"/><stop offset="1" stop-color="#5b8cff"/></linearGradient></defs>
       <rect x="9" y="3" width="22" height="34" rx="4" fill="url(#lg)"/><rect x="12.5" y="6.5" width="15" height="6" rx="1.5" fill="#0b0d12"/><rect x="12.5" y="15" width="15" height="18.5" rx="1.5" fill="#0b0d12" opacity=".55"/>
       <path d="M15 21h9l-2.5-2.5M25 28h-9l2.5 2.5" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <span class="wm">Card <b>Tradz</b></span>
   </a>
   <nav class="topnav">
-    <a href="#/market" data-nav="market">Market</a><a href="#/showcase" data-nav="showcase">Showcase</a><a href="#/portfolio" data-nav="portfolio">Portfolio</a><a href="#/trades" data-nav="trades">Trades</a><a href="#/saved" data-nav="saved">Wishlist</a><a href="#/messages" data-nav="messages">Messages</a>
+    <a href="#/portfolio" data-nav="portfolio">Portfolio</a><a href="#/market" data-nav="market">Market</a><a href="#/showcase" data-nav="showcase">Showcase</a><a href="#/trades" data-nav="trades">Trades</a><a href="#/saved" data-nav="saved">Wishlist</a><a href="#/messages" data-nav="messages">Messages</a>
   </nav>
   <div class="top-actions">
     <a href="#/notifications" class="iconbtn" aria-label="Notifications" id="bellBtn"><svg viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l2 2H4zM10 20a2 2 0 0 0 4 0"/></svg><i class="badge" id="bellBadge"></i></a>
@@ -28,11 +28,11 @@
 </header>
 <main id="app" tabindex="-1"></main>
 <nav class="tabbar">
+  <a href="#/portfolio" data-nav="portfolio"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Portfolio</a>
   <a href="#/market" data-nav="market"><svg viewBox="0 0 24 24"><path d="M3 9l2-5h14l2 5M4 9h16v11H4zM9 20v-6h6v6"/></svg>Market</a>
   <a href="#/showcase" data-nav="showcase"><svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2"/><path d="M8.5 6h7"/></svg>Showcase</a>
   <a href="#/trades" data-nav="trades"><svg viewBox="0 0 24 24"><path d="M4 8h14l-3-3M20 16H6l3 3"/></svg>Trades<i class="badge" id="tradeBadge"></i></a>
   <a href="#/messages" data-nav="messages"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>Inbox<i class="badge" id="msgBadge"></i></a>
-  <a href="#/me" data-nav="me"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>Me</a>
 </nav>
 <div id="modal" class="modal" hidden></div>
 <div id="toast" class="toast"></div>

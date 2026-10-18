@@ -1,0 +1,222 @@
+{
+ "_readme": "Per card: 'sales' = recent sold sales for this exact card+grade: {date:'YYYY-MM-DD', price, type ('Buy Now'|'Auction'|'eBay sale'|null), source ('Alt'|'Fanatics Collect'|'SportsCardsPro (eBay)'|...)}; optional url/urlLabel for the popover link. Rule: market = avg of the 5 most recent sales; if fewer than 5, avg of the 1-3 most recent (labelled 'older sale(s)' when any is >90 days before asOf). Zero sales = 'Comps pending'. Entered manually; the site never fetches any marketplace.",
+ "cards": {
+  "48277011": {
+   "player": "2018 Topps Chrome UEFA Champions League Lionel Messi #1 Running Refractor",
+   "altSearch": "2018 Topps Chrome UEFA Champions League Lionel Messi #1 Running Refractor PSA 9",
+   "asOf": "2026-10-18",
+   "sales": [
+    {
+     "date": "2026-10-11",
+     "price": 108,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-07-13",
+     "price": 115,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-07-08",
+     "price": 113,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-07-01",
+     "price": 125,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-05-24",
+     "price": 80,
+     "type": null,
+     "source": "Alt"
+    }
+   ],
+   "source": "alt.xyz",
+   "altUrl": "https://alt.xyz/itm/b5af44bd-506b-49a6-ae98-83d0740c6aad",
+   "url": "https://alt.xyz/itm/b5af44bd-506b-49a6-ae98-83d0740c6aad",
+   "urlLabel": "View on Alt"
+  },
+  "90929295": {
+   "player": "2023 Panini NBA Hoops Victor Wembanyama #298",
+   "altSearch": "2023 Panini NBA Hoops Victor Wembanyama #298 PSA 10",
+   "asOf": "2026-10-18",
+   "sales": [
+    {
+     "date": "2026-10-15",
+     "price": 100,
+     "type": null,
+     "source": "Fanatics Collect"
+    },
+    {
+     "date": "2026-09-18",
+     "price": 115,
+     "type": null,
+     "source": "Fanatics Collect"
+    },
+    {
+     "date": "2026-08-29",
+     "price": 98,
+     "type": null,
+     "source": "Fanatics Collect"
+    },
+    {
+     "date": "2026-08-25",
+     "price": 95,
+     "type": null,
+     "source": "Fanatics Collect"
+    },
+    {
+     "date": "2026-08-20",
+     "price": 90,
+     "type": null,
+     "source": "Fanatics Collect"
+    }
+   ],
+   "source": "Fanatics Collect",
+   "url": "https://sales-history.fanaticscollect.com/?title=Wembanyama%20Hoops%20PSA%2010%20298",
+   "urlLabel": "View on Fanatics Collect"
+  },
+  "76785557": {
+   "player": "2022 Topps Chrome Formula 1 Max Verstappen #158 Mini Diamond Refractor",
+   "altSearch": "2022 Topps Chrome Formula 1 Max Verstappen #158 Mini Diamond Refractor PSA 10",
+   "asOf": "2026-10-18",
+   "sales": [
+    {
+     "date": "2024-11-26",
+     "price": 100,
+     "type": "eBay sale",
+     "source": "SportsCardsPro (eBay)"
+    }
+   ],
+   "source": "SportsCardsPro",
+   "url": "https://www.sportscardspro.com/game/racing-cards-2022-topps-chrome-formula-1/max-verstappen-mini-diamonds-158",
+   "urlLabel": "View on SportsCardsPro"
+  },
+  "95985438": {
+   "player": "1992 Upper Deck Deion Sanders #SP3 Prime Time's Two",
+   "altSearch": "1992 Upper Deck Deion Sanders #SP3 Prime Time's Two PSA 9",
+   "asOf": "2026-10-18",
+   "sales": [
+    {
+     "date": "2026-10-14",
+     "price": 64,
+     "type": "Buy Now",
+     "source": "Fanatics Collect"
+    },
+    {
+     "date": "2026-09-30",
+     "price": 63,
+     "type": "eBay sale",
+     "source": "SportsCardsPro (eBay)"
+    },
+    {
+     "date": "2026-09-02",
+     "price": 55,
+     "type": "eBay sale",
+     "source": "SportsCardsPro (eBay)"
+    },
+    {
+     "date": "2026-07-31",
+     "price": 49,
+     "type": "Buy Now",
+     "source": "Fanatics Collect"
+    },
+    {
+     "date": "2026-07-15",
+     "price": 41,
+     "type": "eBay sale",
+     "source": "SportsCardsPro (eBay)"
+    }
+   ],
+   "source": "Fanatics Collect + SportsCardsPro"
+  },
+  "88434839": {
+   "player": "2023 Panini Prizm Monopoly Victor Wembanyama #81 Purple",
+   "altSearch": "2023 Panini Prizm Monopoly Victor Wembanyama #81 Purple PSA 9",
+   "asOf": "2026-10-18",
+   "sales": [
+    {
+     "date": "2026-10-17",
+     "price": 120,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-10-15",
+     "price": 88,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-10-14",
+     "price": 82,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-10-13",
+     "price": 122,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-10-10",
+     "price": 120,
+     "type": null,
+     "source": "Alt"
+    }
+   ],
+   "source": "alt.xyz",
+   "altUrl": "https://alt.xyz/itm/a057acfd-582a-41fa-9d6c-b6515cbeefda",
+   "url": "https://alt.xyz/itm/a057acfd-582a-41fa-9d6c-b6515cbeefda",
+   "urlLabel": "View on Alt"
+  },
+  "59346594": {
+   "player": "1990 Score Bo Jackson #697",
+   "altSearch": "1990 Score Bo Jackson #697 PSA 9",
+   "asOf": "2026-10-18",
+   "sales": [
+    {
+     "date": "2026-10-18",
+     "price": 99,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-10-17",
+     "price": 100,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-10-17",
+     "price": 90,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-10-16",
+     "price": 97,
+     "type": null,
+     "source": "Alt"
+    },
+    {
+     "date": "2026-10-15",
+     "price": 130,
+     "type": null,
+     "source": "Alt"
+    }
+   ],
+   "source": "alt.xyz",
+   "altUrl": "https://alt.xyz/itm/88347b80-c36b-4630-ba11-3ac9ad6b7b4e",
+   "url": "https://alt.xyz/itm/88347b80-c36b-4630-ba11-3ac9ad6b7b4e",
+   "urlLabel": "View on Alt"
+  }
+ }
+}

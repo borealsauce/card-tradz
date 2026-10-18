@@ -3793,6 +3793,354 @@
    "listed": "2026-10-09",
    "views": 210,
    "hue": 38
+  },
+  {
+   "id": "L1100",
+   "sport": "Wrestling",
+   "player": "Hulk Hogan",
+   "set": "1985 Topps WWF",
+   "num": "#16 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "8",
+   "cert": "85893910",
+   "pop": 146,
+   "price": 448,
+   "fair": 410,
+   "comps": [
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 452
+    },
+    {
+     "date": "2026-10-04",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 412
+    },
+    {
+     "date": "2026-10-03",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 428
+    },
+    {
+     "date": "2026-09-04",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 409
+    },
+    {
+     "date": "2026-08-21",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 377
+    },
+    {
+     "date": "2026-08-12",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 373
+    }
+   ],
+   "owner": "vintage_vic",
+   "mode": "both",
+   "listed": "2026-10-10",
+   "views": 675,
+   "hue": 321,
+   "demo": true
+  },
+  {
+   "id": "L1101",
+   "sport": "Wrestling",
+   "player": "Stone Cold Steve Austin",
+   "set": "1998 WCW/nWo Nitro",
+   "num": "#3",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "95753514",
+   "pop": 212,
+   "price": 164,
+   "fair": 163,
+   "comps": [
+    {
+     "date": "2026-10-10",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 174
+    },
+    {
+     "date": "2026-09-30",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 153
+    },
+    {
+     "date": "2026-09-22",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 163
+    },
+    {
+     "date": "2026-09-08",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 146
+    },
+    {
+     "date": "2026-08-26",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 178
+    },
+    {
+     "date": "2026-08-02",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 163
+    }
+   ],
+   "owner": "dimecollects",
+   "mode": "sale",
+   "listed": "2026-10-11",
+   "views": 590,
+   "hue": 32,
+   "demo": true
+  },
+  {
+   "id": "L1102",
+   "sport": "Wrestling",
+   "player": "The Rock",
+   "set": "1998 Comic Images WWF Superstarz",
+   "num": "#64",
+   "variant": "Base",
+   "grader": "BGS",
+   "grade": "9.5",
+   "cert": "76453392",
+   "pop": 371,
+   "price": 226,
+   "fair": 213,
+   "comps": [
+    {
+     "date": "2026-10-05",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 200
+    },
+    {
+     "date": "2026-09-22",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 224
+    },
+    {
+     "date": "2026-09-05",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 214
+    },
+    {
+     "date": "2026-08-18",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 200
+    },
+    {
+     "date": "2026-08-13",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 212
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 216
+    }
+   ],
+   "owner": "sundaysubs",
+   "mode": "trade",
+   "listed": "2026-10-12",
+   "views": 324,
+   "hue": 311,
+   "demo": true
+  },
+  {
+   "id": "L1103",
+   "sport": "Garbage Pail Kids",
+   "player": "Adam Bomb",
+   "set": "1985 Topps Garbage Pail Kids Series 1",
+   "num": "#8a Glossy",
+   "variant": "Glossy",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "71230843",
+   "pop": 90,
+   "price": 1033,
+   "fair": 960,
+   "comps": [
+    {
+     "date": "2026-10-06",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 953
+    },
+    {
+     "date": "2026-10-06",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 967
+    },
+    {
+     "date": "2026-09-24",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 871
+    },
+    {
+     "date": "2026-09-05",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 995
+    },
+    {
+     "date": "2026-08-14",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 845
+    },
+    {
+     "date": "2026-07-31",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 968
+    }
+   ],
+   "owner": "hobbybox_dan",
+   "mode": "both",
+   "listed": "2026-10-13",
+   "views": 306,
+   "hue": 242,
+   "demo": true
+  },
+  {
+   "id": "L1104",
+   "sport": "Garbage Pail Kids",
+   "player": "Nasty Nick",
+   "set": "1985 Topps Garbage Pail Kids Series 1",
+   "num": "#1a",
+   "variant": "Base",
+   "grader": "SGC",
+   "grade": "9",
+   "cert": "48578460",
+   "pop": 152,
+   "price": 419,
+   "fair": 395,
+   "comps": [
+    {
+     "date": "2026-10-07",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 401
+    },
+    {
+     "date": "2026-09-06",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 387
+    },
+    {
+     "date": "2026-09-01",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 420
+    },
+    {
+     "date": "2026-08-31",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 390
+    },
+    {
+     "date": "2026-08-19",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 400
+    },
+    {
+     "date": "2026-08-13",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 354
+    }
+   ],
+   "owner": "pc_hunter22",
+   "mode": "sale",
+   "listed": "2026-10-14",
+   "views": 437,
+   "hue": 200,
+   "demo": true
+  },
+  {
+   "id": "L1105",
+   "sport": "Formula 1",
+   "player": "Lewis Hamilton",
+   "set": "2020 Topps Chrome F1",
+   "num": "#1",
+   "variant": "Refractor",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "30306925",
+   "pop": 257,
+   "price": 242,
+   "fair": 231,
+   "comps": [
+    {
+     "date": "2026-09-28",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 261
+    },
+    {
+     "date": "2026-09-16",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 216
+    },
+    {
+     "date": "2026-09-10",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 235
+    },
+    {
+     "date": "2026-08-31",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 262
+    },
+    {
+     "date": "2026-08-25",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 227
+    },
+    {
+     "date": "2026-08-13",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 221
+    }
+   ],
+   "owner": "chrome_chaser",
+   "mode": "both",
+   "listed": "2026-10-15",
+   "views": 42,
+   "hue": 248,
+   "demo": true
   }
  ],
  "mine": [
@@ -4643,6 +4991,41 @@
    "set": "2022 Silver Tempest",
    "num": "#186 Alt Art",
    "base": 230
+  },
+  {
+   "sport": "Wrestling",
+   "player": "Hulk Hogan",
+   "set": "1985 Topps WWF",
+   "num": "#16 Rookie",
+   "base": 420
+  },
+  {
+   "sport": "Wrestling",
+   "player": "Ric Flair",
+   "set": "1982 Wrestling All Stars",
+   "num": "#18",
+   "base": 300
+  },
+  {
+   "sport": "Garbage Pail Kids",
+   "player": "Adam Bomb",
+   "set": "1985 Topps Garbage Pail Kids Series 1",
+   "num": "#8a",
+   "base": 950
+  },
+  {
+   "sport": "Garbage Pail Kids",
+   "player": "Evil Eddie",
+   "set": "1985 Topps Garbage Pail Kids Series 1",
+   "num": "#2a",
+   "base": 260
+  },
+  {
+   "sport": "Formula 1",
+   "player": "Max Verstappen",
+   "set": "2022 Topps Chrome F1",
+   "num": "#158",
+   "base": 180
   }
  ]
 }
