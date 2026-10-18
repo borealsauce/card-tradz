@@ -1,7 +1,7 @@
-/* Slabyard — clickable front-end demo. No real trades, payments, or data lookups. */
+/* Card Tradz — clickable front-end demo. No real trades, payments, or data lookups. */
 (function(){
 'use strict';
-var D=null,S=null,KEY='slabyard_demo_v1',TODAY='2026-10-18';
+var D=null,S=null,KEY='cardtradz_demo_v1',TODAY='2026-10-18';
 var $=function(s,r){return (r||document).querySelector(s)};
 var app=$('#app');
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
@@ -16,7 +16,7 @@ function toast(t){var el=$('#toast');el.textContent=t;el.classList.add('show');c
 function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
 function uid(p){return p+Date.now().toString(36)+Math.floor(Math.random()*1e4)}
 var GR={PSA:{c:'#d2232a',t:'#fff'},BGS:{c:'#c9b47a',t:'#1a1407'},SGC:{c:'#1b1b1f',t:'#f1f1f1'},CGC:{c:'#1d4fa8',t:'#fff'},CSG:{c:'#0f7a63',t:'#fff'}};
-var STEPS=['Trade agreed','Both sides ship to the Slabyard hub','Received at hub','Authenticated & certs verified','Shipped out (insured)','Delivered'];
+var STEPS=['Trade agreed','Both sides ship to the Card Tradz hub','Received at hub','Authenticated & certs verified','Shipped out (insured)','Delivered'];
 
 /* ---------- data ---------- */
 function user(h){return D.users.find(function(u){return u.handle===h})||{handle:h,name:h,rating:0,trades:0,cancels:0,loc:'',resp:'',joined:''}}

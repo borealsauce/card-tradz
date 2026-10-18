@@ -1,4 +1,4 @@
-# Slabyard — graded card trading marketplace (clickable demo)
+# Card Tradz — graded card trading marketplace (clickable demo)
 
 **Demo only — no real trades, payments, accounts or cert lookups.** All listings, users and comps are fictional sample data.
 
