@@ -1,0 +1,4648 @@
+{
+ "users": [
+  {
+   "handle": "you",
+   "name": "You (Demo)",
+   "loc": "Carlsbad, CA",
+   "rating": 4.9,
+   "trades": 37,
+   "cancels": 0,
+   "resp": "2h",
+   "joined": "2021"
+  },
+  {
+   "handle": "slabking_mike",
+   "name": "Mike R.",
+   "loc": "Phoenix, AZ",
+   "rating": 4.9,
+   "trades": 212,
+   "cancels": 1,
+   "resp": "20m",
+   "joined": "2021"
+  },
+  {
+   "handle": "graded_gems",
+   "name": "Tasha W.",
+   "loc": "Charlotte, NC",
+   "rating": 4.8,
+   "trades": 148,
+   "cancels": 2,
+   "resp": "1h",
+   "joined": "2023"
+  },
+  {
+   "handle": "pc_hunter22",
+   "name": "Jordan L.",
+   "loc": "Columbus, OH",
+   "rating": 4.7,
+   "trades": 63,
+   "cancels": 3,
+   "resp": "3h",
+   "joined": "2022"
+  },
+  {
+   "handle": "hobbybox_dan",
+   "name": "Dan K.",
+   "loc": "Tampa, FL",
+   "rating": 4.95,
+   "trades": 401,
+   "cancels": 0,
+   "resp": "15m",
+   "joined": "2022"
+  },
+  {
+   "handle": "rookie_vault",
+   "name": "Priya S.",
+   "loc": "Seattle, WA",
+   "rating": 4.6,
+   "trades": 41,
+   "cancels": 5,
+   "resp": "6h",
+   "joined": "2022"
+  },
+  {
+   "handle": "chrome_chaser",
+   "name": "Luis M.",
+   "loc": "San Antonio, TX",
+   "rating": 4.85,
+   "trades": 97,
+   "cancels": 1,
+   "resp": "45m",
+   "joined": "2021"
+  },
+  {
+   "handle": "vintage_vic",
+   "name": "Victor H.",
+   "loc": "Pittsburgh, PA",
+   "rating": 5.0,
+   "trades": 320,
+   "cancels": 0,
+   "resp": "1h",
+   "joined": "2021"
+  },
+  {
+   "handle": "pokepulls_amy",
+   "name": "Amy T.",
+   "loc": "Portland, OR",
+   "rating": 4.75,
+   "trades": 88,
+   "cancels": 2,
+   "resp": "2h",
+   "joined": "2024"
+  },
+  {
+   "handle": "goatcards",
+   "name": "Chris B.",
+   "loc": "Brooklyn, NY",
+   "rating": 4.4,
+   "trades": 29,
+   "cancels": 7,
+   "resp": "12h",
+   "joined": "2021"
+  },
+  {
+   "handle": "dimecollects",
+   "name": "Nate G.",
+   "loc": "Denver, CO",
+   "rating": 4.8,
+   "trades": 156,
+   "cancels": 1,
+   "resp": "30m",
+   "joined": "2021"
+  },
+  {
+   "handle": "sundaysubs",
+   "name": "Keisha J.",
+   "loc": "Atlanta, GA",
+   "rating": 4.9,
+   "trades": 119,
+   "cancels": 0,
+   "resp": "1h",
+   "joined": "2021"
+  }
+ ],
+ "listings": [
+  {
+   "id": "L1000",
+   "sport": "Basketball",
+   "player": "LeBron James",
+   "set": "2003 Topps Chrome",
+   "num": "#111 Rookie",
+   "variant": "Red /299",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "81971316",
+   "pop": 1025,
+   "price": 564,
+   "fair": 563,
+   "comps": [
+    {
+     "date": "2026-09-11",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 603
+    },
+    {
+     "date": "2026-09-03",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 525
+    },
+    {
+     "date": "2026-09-03",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 552
+    },
+    {
+     "date": "2026-08-08",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 563
+    },
+    {
+     "date": "2026-08-06",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 595
+    }
+   ],
+   "owner": "rookie_vault",
+   "mode": "sale",
+   "listed": "2026-10-13",
+   "views": 342,
+   "hue": 282
+  },
+  {
+   "id": "L1001",
+   "sport": "Basketball",
+   "player": "Luka Doncic",
+   "set": "2018 Panini Prizm",
+   "num": "#280 Rookie",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "17507864",
+   "pop": 1879,
+   "price": 446,
+   "fair": 464,
+   "comps": [
+    {
+     "date": "2026-09-20",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 526
+    },
+    {
+     "date": "2026-09-17",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 440
+    },
+    {
+     "date": "2026-08-09",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 464
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 412
+    },
+    {
+     "date": "2026-07-27",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 452
+    },
+    {
+     "date": "2026-07-26",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 487
+    },
+    {
+     "date": "2026-07-24",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 533
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "trade",
+   "listed": "2026-10-02",
+   "views": 1312,
+   "hue": 205
+  },
+  {
+   "id": "L1002",
+   "sport": "Basketball",
+   "player": "Victor Wembanyama",
+   "set": "2023 Panini Prizm",
+   "num": "#136 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "8",
+   "cert": "82070937",
+   "pop": 2188,
+   "price": 124,
+   "fair": 96,
+   "comps": [
+    {
+     "date": "2026-10-02",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 90
+    },
+    {
+     "date": "2026-09-29",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 106
+    },
+    {
+     "date": "2026-09-19",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 110
+    },
+    {
+     "date": "2026-09-15",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 101
+    },
+    {
+     "date": "2026-08-23",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 96
+    },
+    {
+     "date": "2026-08-03",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 91
+    },
+    {
+     "date": "2026-07-26",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 92
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "sale",
+   "listed": "2026-10-11",
+   "views": 476,
+   "hue": 150
+  },
+  {
+   "id": "L1003",
+   "sport": "Basketball",
+   "player": "Stephen Curry",
+   "set": "2009 Topps",
+   "num": "#321 Rookie",
+   "variant": "Base",
+   "grader": "BGS",
+   "grade": "9.5",
+   "cert": "0098550256",
+   "pop": 3896,
+   "price": 824,
+   "fair": 571,
+   "comps": [
+    {
+     "date": "2026-10-14",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 593
+    },
+    {
+     "date": "2026-09-21",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 575
+    },
+    {
+     "date": "2026-09-07",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 497
+    },
+    {
+     "date": "2026-08-13",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 598
+    },
+    {
+     "date": "2026-08-08",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 510
+    },
+    {
+     "date": "2026-08-05",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 571
+    },
+    {
+     "date": "2026-07-28",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 537
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "trade",
+   "listed": "2026-10-18",
+   "views": 696,
+   "hue": 135
+  },
+  {
+   "id": "L1004",
+   "sport": "Basketball",
+   "player": "Giannis Antetokounmpo",
+   "set": "2013 Panini Prizm",
+   "num": "#290 Rookie",
+   "variant": "Refractor",
+   "grader": "SGC",
+   "grade": "10",
+   "cert": "99788677",
+   "pop": 3979,
+   "price": 642,
+   "fair": 722,
+   "comps": [
+    {
+     "date": "2026-09-03",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 774
+    },
+    {
+     "date": "2026-08-20",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 703
+    },
+    {
+     "date": "2026-08-08",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 722
+    },
+    {
+     "date": "2026-08-02",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 670
+    },
+    {
+     "date": "2026-07-28",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 670
+    },
+    {
+     "date": "2026-07-25",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 847
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "trade",
+   "listed": "2026-10-07",
+   "views": 2228,
+   "hue": 67
+  },
+  {
+   "id": "L1005",
+   "sport": "Basketball",
+   "player": "Anthony Edwards",
+   "set": "2020 Panini Prizm",
+   "num": "#258 Rookie",
+   "variant": "Base",
+   "grader": "CGC",
+   "grade": "10",
+   "cert": "16789850",
+   "pop": 123,
+   "price": 229,
+   "fair": 260,
+   "comps": [
+    {
+     "date": "2026-09-03",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 243
+    },
+    {
+     "date": "2026-08-18",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 277
+    },
+    {
+     "date": "2026-08-17",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 236
+    },
+    {
+     "date": "2026-08-09",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 260
+    },
+    {
+     "date": "2026-07-26",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 259
+    },
+    {
+     "date": "2026-07-24",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 260
+    }
+   ],
+   "owner": "graded_gems",
+   "mode": "both",
+   "listed": "2026-10-03",
+   "views": 988,
+   "hue": 85
+  },
+  {
+   "id": "L1006",
+   "sport": "Basketball",
+   "player": "Michael Jordan",
+   "set": "1997 Upper Deck",
+   "num": "#18",
+   "variant": "Gold /50",
+   "grader": "BGS",
+   "grade": "10",
+   "cert": "0098231132",
+   "pop": 2594,
+   "price": 300,
+   "fair": 294,
+   "comps": [
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 246
+    },
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 250
+    },
+    {
+     "date": "2026-10-06",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 294
+    },
+    {
+     "date": "2026-09-19",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 305
+    },
+    {
+     "date": "2026-09-16",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 321
+    },
+    {
+     "date": "2026-08-28",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 269
+    },
+    {
+     "date": "2026-08-16",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 323
+    },
+    {
+     "date": "2026-08-06",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 261
+    }
+   ],
+   "owner": "slabking_mike",
+   "mode": "sale",
+   "listed": "2026-10-09",
+   "views": 856,
+   "hue": 342
+  },
+  {
+   "id": "L1007",
+   "sport": "Basketball",
+   "player": "Caitlin Clark",
+   "set": "2024 Panini Prizm WNBA",
+   "num": "#22 Rookie",
+   "variant": "Refractor",
+   "grader": "CGC",
+   "grade": "9.5",
+   "cert": "91178885",
+   "pop": 1728,
+   "price": 321,
+   "fair": 235,
+   "comps": [
+    {
+     "date": "2026-10-08",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 213
+    },
+    {
+     "date": "2026-10-07",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 235
+    },
+    {
+     "date": "2026-09-30",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 215
+    },
+    {
+     "date": "2026-09-08",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 212
+    },
+    {
+     "date": "2026-08-21",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 258
+    },
+    {
+     "date": "2026-08-13",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 255
+    },
+    {
+     "date": "2026-08-05",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 229
+    },
+    {
+     "date": "2026-07-25",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 247
+    }
+   ],
+   "owner": "pc_hunter22",
+   "mode": "both",
+   "listed": "2026-10-11",
+   "views": 853,
+   "hue": 351
+  },
+  {
+   "id": "L1008",
+   "sport": "Basketball",
+   "player": "Kobe Bryant",
+   "set": "1996 Topps Chrome",
+   "num": "#138 Rookie",
+   "variant": "Base",
+   "grader": "CGC",
+   "grade": "9.5",
+   "cert": "41774346",
+   "pop": 1334,
+   "price": 1156,
+   "fair": 1340,
+   "comps": [
+    {
+     "date": "2026-10-10",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1375
+    },
+    {
+     "date": "2026-09-30",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1500
+    },
+    {
+     "date": "2026-09-28",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 1225
+    },
+    {
+     "date": "2026-09-27",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1437
+    },
+    {
+     "date": "2026-09-11",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1340
+    },
+    {
+     "date": "2026-08-31",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1291
+    },
+    {
+     "date": "2026-08-07",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 1252
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "both",
+   "listed": "2026-10-06",
+   "views": 1708,
+   "hue": 12
+  },
+  {
+   "id": "L1009",
+   "sport": "Basketball",
+   "player": "Nikola Jokic",
+   "set": "2015 Panini Prizm",
+   "num": "#291 Rookie",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "68571795",
+   "pop": 4192,
+   "price": 212,
+   "fair": 246,
+   "comps": [
+    {
+     "date": "2026-10-03",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 251
+    },
+    {
+     "date": "2026-09-18",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 218
+    },
+    {
+     "date": "2026-09-17",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 238
+    },
+    {
+     "date": "2026-09-15",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 246
+    },
+    {
+     "date": "2026-09-13",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 258
+    },
+    {
+     "date": "2026-09-11",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 229
+    },
+    {
+     "date": "2026-08-26",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 251
+    },
+    {
+     "date": "2026-08-09",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 203
+    }
+   ],
+   "owner": "vintage_vic",
+   "mode": "both",
+   "listed": "2026-10-04",
+   "views": 1597,
+   "hue": 295
+  },
+  {
+   "id": "L1010",
+   "sport": "Football",
+   "player": "Patrick Mahomes",
+   "set": "2017 Panini Prizm",
+   "num": "#269 Rookie",
+   "variant": "Refractor",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "79182797",
+   "pop": 2748,
+   "price": 510,
+   "fair": 369,
+   "comps": [
+    {
+     "date": "2026-10-16",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 366
+    },
+    {
+     "date": "2026-09-20",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 369
+    },
+    {
+     "date": "2026-09-08",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 363
+    },
+    {
+     "date": "2026-09-08",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 353
+    },
+    {
+     "date": "2026-09-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 409
+    },
+    {
+     "date": "2026-08-26",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 334
+    },
+    {
+     "date": "2026-08-24",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 385
+    },
+    {
+     "date": "2026-08-21",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 370
+    }
+   ],
+   "owner": "pc_hunter22",
+   "mode": "sale",
+   "listed": "2026-10-03",
+   "views": 982,
+   "hue": 344
+  },
+  {
+   "id": "L1011",
+   "sport": "Football",
+   "player": "Josh Allen",
+   "set": "2018 Panini Prizm",
+   "num": "#205 Rookie",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "69401199",
+   "pop": 4138,
+   "price": 293,
+   "fair": 253,
+   "comps": [
+    {
+     "date": "2026-10-16",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 229
+    },
+    {
+     "date": "2026-10-13",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 283
+    },
+    {
+     "date": "2026-08-14",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 224
+    },
+    {
+     "date": "2026-08-11",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 253
+    },
+    {
+     "date": "2026-07-30",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 243
+    },
+    {
+     "date": "2026-07-28",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 263
+    }
+   ],
+   "owner": "pc_hunter22",
+   "mode": "both",
+   "listed": "2026-10-14",
+   "views": 2264,
+   "hue": 228
+  },
+  {
+   "id": "L1012",
+   "sport": "Football",
+   "player": "Justin Jefferson",
+   "set": "2020 Panini Prizm",
+   "num": "#398 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "87267850",
+   "pop": 3119,
+   "price": 195,
+   "fair": 197,
+   "comps": [
+    {
+     "date": "2026-09-16",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 183
+    },
+    {
+     "date": "2026-09-10",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 197
+    },
+    {
+     "date": "2026-08-28",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 190
+    },
+    {
+     "date": "2026-08-24",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 209
+    },
+    {
+     "date": "2026-08-08",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 187
+    },
+    {
+     "date": "2026-07-27",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 206
+    }
+   ],
+   "owner": "vintage_vic",
+   "mode": "both",
+   "listed": "2026-10-16",
+   "views": 44,
+   "hue": 180
+  },
+  {
+   "id": "L1013",
+   "sport": "Football",
+   "player": "C.J. Stroud",
+   "set": "2023 Panini Prizm",
+   "num": "#339 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "82399599",
+   "pop": 429,
+   "price": 219,
+   "fair": 182,
+   "comps": [
+    {
+     "date": "2026-09-29",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 155
+    },
+    {
+     "date": "2026-09-03",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 189
+    },
+    {
+     "date": "2026-08-29",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 175
+    },
+    {
+     "date": "2026-08-26",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 198
+    },
+    {
+     "date": "2026-08-22",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 171
+    },
+    {
+     "date": "2026-08-09",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 163
+    },
+    {
+     "date": "2026-07-29",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 182
+    },
+    {
+     "date": "2026-07-24",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 184
+    }
+   ],
+   "owner": "graded_gems",
+   "mode": "both",
+   "listed": "2026-10-12",
+   "views": 938,
+   "hue": 332
+  },
+  {
+   "id": "L1014",
+   "sport": "Football",
+   "player": "Tom Brady",
+   "set": "2000 Bowman",
+   "num": "#236 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "8",
+   "cert": "85958181",
+   "pop": 339,
+   "price": 552,
+   "fair": 538,
+   "comps": [
+    {
+     "date": "2026-10-03",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 538
+    },
+    {
+     "date": "2026-09-30",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 536
+    },
+    {
+     "date": "2026-09-25",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 596
+    },
+    {
+     "date": "2026-09-21",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 476
+    },
+    {
+     "date": "2026-09-19",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 566
+    },
+    {
+     "date": "2026-08-29",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 464
+    }
+   ],
+   "owner": "graded_gems",
+   "mode": "both",
+   "listed": "2026-10-12",
+   "views": 2202,
+   "hue": 219
+  },
+  {
+   "id": "L1015",
+   "sport": "Football",
+   "player": "Joe Burrow",
+   "set": "2020 Panini Prizm",
+   "num": "#307 Rookie",
+   "variant": "Refractor",
+   "grader": "CGC",
+   "grade": "9.5",
+   "cert": "55679506",
+   "pop": 2293,
+   "price": 207,
+   "fair": 175,
+   "comps": [
+    {
+     "date": "2026-10-15",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 158
+    },
+    {
+     "date": "2026-10-05",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 165
+    },
+    {
+     "date": "2026-08-31",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 175
+    },
+    {
+     "date": "2026-08-18",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 155
+    },
+    {
+     "date": "2026-08-11",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 193
+    },
+    {
+     "date": "2026-08-09",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 175
+    },
+    {
+     "date": "2026-08-02",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 196
+    }
+   ],
+   "owner": "hobbybox_dan",
+   "mode": "both",
+   "listed": "2026-10-09",
+   "views": 2296,
+   "hue": 5
+  },
+  {
+   "id": "L1016",
+   "sport": "Football",
+   "player": "Jayden Daniels",
+   "set": "2024 Panini Prizm",
+   "num": "#331 Rookie",
+   "variant": "Base",
+   "grader": "SGC",
+   "grade": "9",
+   "cert": "36054020",
+   "pop": 2429,
+   "price": 98,
+   "fair": 95,
+   "comps": [
+    {
+     "date": "2026-10-01",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 89
+    },
+    {
+     "date": "2026-09-18",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 95
+    },
+    {
+     "date": "2026-09-02",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 96
+    },
+    {
+     "date": "2026-08-19",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 93
+    },
+    {
+     "date": "2026-08-15",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 99
+    },
+    {
+     "date": "2026-08-15",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 89
+    },
+    {
+     "date": "2026-08-09",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 92
+    },
+    {
+     "date": "2026-08-03",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 101
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "both",
+   "listed": "2026-10-08",
+   "views": 1498,
+   "hue": 91
+  },
+  {
+   "id": "L1017",
+   "sport": "Football",
+   "player": "Lamar Jackson",
+   "set": "2018 Panini Prizm",
+   "num": "#212 Rookie",
+   "variant": "Gold /50",
+   "grader": "PSA",
+   "grade": "8",
+   "cert": "91378577",
+   "pop": 1851,
+   "price": 85,
+   "fair": 85,
+   "comps": [
+    {
+     "date": "2026-10-07",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 78
+    },
+    {
+     "date": "2026-09-30",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 95
+    },
+    {
+     "date": "2026-09-11",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 87
+    },
+    {
+     "date": "2026-09-03",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 80
+    },
+    {
+     "date": "2026-08-16",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 84
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 85
+    }
+   ],
+   "owner": "hobbybox_dan",
+   "mode": "sale",
+   "listed": "2026-10-17",
+   "views": 1578,
+   "hue": 230
+  },
+  {
+   "id": "L1018",
+   "sport": "Baseball",
+   "player": "Shohei Ohtani",
+   "set": "2018 Topps Update",
+   "num": "#US1 Rookie",
+   "variant": "Base",
+   "grader": "BGS",
+   "grade": "9.5",
+   "cert": "0018004482",
+   "pop": 1362,
+   "price": 394,
+   "fair": 454,
+   "comps": [
+    {
+     "date": "2026-10-07",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 529
+    },
+    {
+     "date": "2026-10-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 450
+    },
+    {
+     "date": "2026-09-10",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 539
+    },
+    {
+     "date": "2026-09-07",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 553
+    },
+    {
+     "date": "2026-08-20",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 426
+    },
+    {
+     "date": "2026-08-07",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 422
+    },
+    {
+     "date": "2026-07-28",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 437
+    },
+    {
+     "date": "2026-07-24",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 454
+    }
+   ],
+   "owner": "rookie_vault",
+   "mode": "trade",
+   "listed": "2026-10-10",
+   "views": 2351,
+   "hue": 147
+  },
+  {
+   "id": "L1019",
+   "sport": "Baseball",
+   "player": "Mike Trout",
+   "set": "2011 Topps Update",
+   "num": "#US175 Rookie",
+   "variant": "Red /299",
+   "grader": "BGS",
+   "grade": "9",
+   "cert": "0056702542",
+   "pop": 3348,
+   "price": 533,
+   "fair": 519,
+   "comps": [
+    {
+     "date": "2026-10-05",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 572
+    },
+    {
+     "date": "2026-08-26",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 529
+    },
+    {
+     "date": "2026-08-22",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 486
+    },
+    {
+     "date": "2026-08-21",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 456
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 570
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 519
+    },
+    {
+     "date": "2026-07-25",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 476
+    }
+   ],
+   "owner": "pokepulls_amy",
+   "mode": "sale",
+   "listed": "2026-10-11",
+   "views": 1335,
+   "hue": 343
+  },
+  {
+   "id": "L1020",
+   "sport": "Baseball",
+   "player": "Juan Soto",
+   "set": "2018 Topps Update",
+   "num": "#US300 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "71934487",
+   "pop": 965,
+   "price": 80,
+   "fair": 78,
+   "comps": [
+    {
+     "date": "2026-09-20",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 76
+    },
+    {
+     "date": "2026-09-10",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 84
+    },
+    {
+     "date": "2026-09-10",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 76
+    },
+    {
+     "date": "2026-09-06",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 76
+    },
+    {
+     "date": "2026-08-31",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 91
+    },
+    {
+     "date": "2026-08-26",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 94
+    },
+    {
+     "date": "2026-08-18",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 78
+    },
+    {
+     "date": "2026-07-28",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 77
+    }
+   ],
+   "owner": "graded_gems",
+   "mode": "trade",
+   "listed": "2026-10-05",
+   "views": 2061,
+   "hue": 149
+  },
+  {
+   "id": "L1021",
+   "sport": "Baseball",
+   "player": "Ken Griffey Jr.",
+   "set": "1989 Upper Deck",
+   "num": "#1 Rookie",
+   "variant": "Silver",
+   "grader": "SGC",
+   "grade": "9",
+   "cert": "65133300",
+   "pop": 360,
+   "price": 531,
+   "fair": 368,
+   "comps": [
+    {
+     "date": "2026-10-16",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 343
+    },
+    {
+     "date": "2026-09-29",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 391
+    },
+    {
+     "date": "2026-08-28",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 364
+    },
+    {
+     "date": "2026-08-24",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 339
+    },
+    {
+     "date": "2026-08-17",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 368
+    },
+    {
+     "date": "2026-08-16",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 368
+    },
+    {
+     "date": "2026-08-08",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 407
+    },
+    {
+     "date": "2026-08-02",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 358
+    }
+   ],
+   "owner": "hobbybox_dan",
+   "mode": "both",
+   "listed": "2026-10-11",
+   "views": 1957,
+   "hue": 195
+  },
+  {
+   "id": "L1022",
+   "sport": "Baseball",
+   "player": "Elly De La Cruz",
+   "set": "2023 Topps Chrome Update",
+   "num": "#USC1 Rookie",
+   "variant": "Holo",
+   "grader": "BGS",
+   "grade": "9.5",
+   "cert": "0094127561",
+   "pop": 4000,
+   "price": 137,
+   "fair": 131,
+   "comps": [
+    {
+     "date": "2026-10-15",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 131
+    },
+    {
+     "date": "2026-09-30",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 131
+    },
+    {
+     "date": "2026-09-27",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 128
+    },
+    {
+     "date": "2026-09-13",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 125
+    },
+    {
+     "date": "2026-08-21",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 133
+    }
+   ],
+   "owner": "sundaysubs",
+   "mode": "both",
+   "listed": "2026-10-18",
+   "views": 167,
+   "hue": 316
+  },
+  {
+   "id": "L1023",
+   "sport": "Baseball",
+   "player": "Paul Skenes",
+   "set": "2024 Topps Chrome Update",
+   "num": "#USC150 Rookie",
+   "variant": "Refractor",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "99501846",
+   "pop": 79,
+   "price": 114,
+   "fair": 126,
+   "comps": [
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 126
+    },
+    {
+     "date": "2026-09-28",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 128
+    },
+    {
+     "date": "2026-09-23",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 116
+    },
+    {
+     "date": "2026-09-17",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 149
+    },
+    {
+     "date": "2026-09-08",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 125
+    },
+    {
+     "date": "2026-08-29",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 146
+    },
+    {
+     "date": "2026-07-27",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 119
+    }
+   ],
+   "owner": "rookie_vault",
+   "mode": "both",
+   "listed": "2026-10-15",
+   "views": 1198,
+   "hue": 346
+  },
+  {
+   "id": "L1024",
+   "sport": "Baseball",
+   "player": "Derek Jeter",
+   "set": "1993 SP",
+   "num": "#279 Rookie",
+   "variant": "Base",
+   "grader": "SGC",
+   "grade": "9",
+   "cert": "94216001",
+   "pop": 325,
+   "price": 488,
+   "fair": 559,
+   "comps": [
+    {
+     "date": "2026-10-15",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 616
+    },
+    {
+     "date": "2026-09-14",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 527
+    },
+    {
+     "date": "2026-09-10",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 625
+    },
+    {
+     "date": "2026-09-09",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 559
+    },
+    {
+     "date": "2026-08-28",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 534
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 543
+    },
+    {
+     "date": "2026-08-02",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 651
+    }
+   ],
+   "owner": "rookie_vault",
+   "mode": "trade",
+   "listed": "2026-10-10",
+   "views": 1825,
+   "hue": 17
+  },
+  {
+   "id": "L1025",
+   "sport": "Baseball",
+   "player": "Aaron Judge",
+   "set": "2017 Topps",
+   "num": "#287 Rookie",
+   "variant": "Holo",
+   "grader": "SGC",
+   "grade": "9",
+   "cert": "22120246",
+   "pop": 3235,
+   "price": 211,
+   "fair": 150,
+   "comps": [
+    {
+     "date": "2026-10-02",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 139
+    },
+    {
+     "date": "2026-09-21",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 170
+    },
+    {
+     "date": "2026-09-09",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 150
+    },
+    {
+     "date": "2026-08-31",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 144
+    },
+    {
+     "date": "2026-08-16",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 170
+    }
+   ],
+   "owner": "sundaysubs",
+   "mode": "both",
+   "listed": "2026-10-01",
+   "views": 1103,
+   "hue": 274
+  },
+  {
+   "id": "L1026",
+   "sport": "Hockey",
+   "player": "Connor McDavid",
+   "set": "2015 Upper Deck Young Guns",
+   "num": "#201 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "65684858",
+   "pop": 814,
+   "price": 1229,
+   "fair": 1185,
+   "comps": [
+    {
+     "date": "2026-10-08",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 1251
+    },
+    {
+     "date": "2026-10-02",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1351
+    },
+    {
+     "date": "2026-09-17",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 1241
+    },
+    {
+     "date": "2026-09-08",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 1066
+    },
+    {
+     "date": "2026-08-09",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1185
+    },
+    {
+     "date": "2026-08-06",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1107
+    },
+    {
+     "date": "2026-08-03",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 1069
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "both",
+   "listed": "2026-10-16",
+   "views": 1691,
+   "hue": 143
+  },
+  {
+   "id": "L1027",
+   "sport": "Hockey",
+   "player": "Wayne Gretzky",
+   "set": "1979 O-Pee-Chee",
+   "num": "#18 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "98725654",
+   "pop": 214,
+   "price": 2465,
+   "fair": 2848,
+   "comps": [
+    {
+     "date": "2026-09-22",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 2335
+    },
+    {
+     "date": "2026-09-19",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 2848
+    },
+    {
+     "date": "2026-09-17",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 2849
+    },
+    {
+     "date": "2026-09-16",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 2991
+    },
+    {
+     "date": "2026-09-15",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 2418
+    },
+    {
+     "date": "2026-08-30",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 2561
+    },
+    {
+     "date": "2026-08-07",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 2426
+    },
+    {
+     "date": "2026-08-01",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 2901
+    }
+   ],
+   "owner": "rookie_vault",
+   "mode": "trade",
+   "listed": "2026-10-05",
+   "views": 80,
+   "hue": 183
+  },
+  {
+   "id": "L1028",
+   "sport": "Hockey",
+   "player": "Connor Bedard",
+   "set": "2023 Upper Deck Young Guns",
+   "num": "#451 Rookie",
+   "variant": "Base",
+   "grader": "CSG",
+   "grade": "9",
+   "cert": "75802771",
+   "pop": 3636,
+   "price": 225,
+   "fair": 232,
+   "comps": [
+    {
+     "date": "2026-09-24",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 232
+    },
+    {
+     "date": "2026-08-24",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 227
+    },
+    {
+     "date": "2026-08-20",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 266
+    },
+    {
+     "date": "2026-08-20",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 226
+    },
+    {
+     "date": "2026-07-24",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 269
+    }
+   ],
+   "owner": "vintage_vic",
+   "mode": "both",
+   "listed": "2026-10-03",
+   "views": 350,
+   "hue": 164
+  },
+  {
+   "id": "L1029",
+   "sport": "Soccer",
+   "player": "Lionel Messi",
+   "set": "2014 Panini Prizm World Cup",
+   "num": "#12",
+   "variant": "Base",
+   "grader": "SGC",
+   "grade": "9",
+   "cert": "67965485",
+   "pop": 794,
+   "price": 190,
+   "fair": 188,
+   "comps": [
+    {
+     "date": "2026-09-17",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 205
+    },
+    {
+     "date": "2026-09-06",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 212
+    },
+    {
+     "date": "2026-08-26",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 178
+    },
+    {
+     "date": "2026-08-22",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 168
+    },
+    {
+     "date": "2026-08-10",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 188
+    },
+    {
+     "date": "2026-07-29",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 214
+    },
+    {
+     "date": "2026-07-25",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 185
+    }
+   ],
+   "owner": "graded_gems",
+   "mode": "sale",
+   "listed": "2026-10-12",
+   "views": 552,
+   "hue": 284
+  },
+  {
+   "id": "L1030",
+   "sport": "Soccer",
+   "player": "Erling Haaland",
+   "set": "2020 Topps Chrome UCL",
+   "num": "#61 Rookie",
+   "variant": "Refractor",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "55610493",
+   "pop": 2878,
+   "price": 422,
+   "fair": 349,
+   "comps": [
+    {
+     "date": "2026-10-01",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 351
+    },
+    {
+     "date": "2026-09-27",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 349
+    },
+    {
+     "date": "2026-09-02",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 341
+    },
+    {
+     "date": "2026-09-01",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 319
+    },
+    {
+     "date": "2026-08-23",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 327
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 349
+    },
+    {
+     "date": "2026-07-29",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 356
+    }
+   ],
+   "owner": "pc_hunter22",
+   "mode": "both",
+   "listed": "2026-10-01",
+   "views": 763,
+   "hue": 73
+  },
+  {
+   "id": "L1031",
+   "sport": "Soccer",
+   "player": "Kylian Mbappe",
+   "set": "2018 Panini Prizm World Cup",
+   "num": "#80 Rookie",
+   "variant": "Holo",
+   "grader": "SGC",
+   "grade": "10",
+   "cert": "67702031",
+   "pop": 911,
+   "price": 269,
+   "fair": 272,
+   "comps": [
+    {
+     "date": "2026-10-05",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 281
+    },
+    {
+     "date": "2026-09-05",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 259
+    },
+    {
+     "date": "2026-09-03",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 272
+    },
+    {
+     "date": "2026-08-21",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 296
+    },
+    {
+     "date": "2026-07-29",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 253
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "sale",
+   "listed": "2026-10-10",
+   "views": 2013,
+   "hue": 269
+  },
+  {
+   "id": "L1032",
+   "sport": "Pokemon",
+   "player": "Charizard",
+   "set": "1999 Pokemon Base Set",
+   "num": "#4 Holo",
+   "variant": "Holo",
+   "grader": "CGC",
+   "grade": "9.5",
+   "cert": "58567046",
+   "pop": 724,
+   "price": 1663,
+   "fair": 1871,
+   "comps": [
+    {
+     "date": "2026-10-11",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 1887
+    },
+    {
+     "date": "2026-10-07",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1871
+    },
+    {
+     "date": "2026-10-01",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 2041
+    },
+    {
+     "date": "2026-09-24",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1926
+    },
+    {
+     "date": "2026-09-19",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1796
+    },
+    {
+     "date": "2026-09-17",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1854
+    },
+    {
+     "date": "2026-08-26",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 1703
+    },
+    {
+     "date": "2026-08-01",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1751
+    }
+   ],
+   "owner": "dimecollects",
+   "mode": "both",
+   "listed": "2026-10-14",
+   "views": 453,
+   "hue": 124
+  },
+  {
+   "id": "L1033",
+   "sport": "Pokemon",
+   "player": "Pikachu Illustrator Tribute",
+   "set": "2023 Pokemon 151",
+   "num": "#173 SIR",
+   "variant": "Holo",
+   "grader": "BGS",
+   "grade": "10",
+   "cert": "0069352161",
+   "pop": 2483,
+   "price": 296,
+   "fair": 301,
+   "comps": [
+    {
+     "date": "2026-09-25",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 301
+    },
+    {
+     "date": "2026-09-14",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 298
+    },
+    {
+     "date": "2026-09-07",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 276
+    },
+    {
+     "date": "2026-08-10",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 278
+    },
+    {
+     "date": "2026-08-03",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 320
+    },
+    {
+     "date": "2026-07-28",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 311
+    },
+    {
+     "date": "2026-07-26",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 258
+    },
+    {
+     "date": "2026-07-25",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 327
+    }
+   ],
+   "owner": "graded_gems",
+   "mode": "both",
+   "listed": "2026-10-09",
+   "views": 250,
+   "hue": 180
+  },
+  {
+   "id": "L1034",
+   "sport": "Pokemon",
+   "player": "Umbreon VMAX",
+   "set": "2021 Evolving Skies",
+   "num": "#215 Alt Art",
+   "variant": "Holo",
+   "grader": "SGC",
+   "grade": "8",
+   "cert": "94676162",
+   "pop": 2744,
+   "price": 274,
+   "fair": 305,
+   "comps": [
+    {
+     "date": "2026-10-12",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 325
+    },
+    {
+     "date": "2026-10-11",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 292
+    },
+    {
+     "date": "2026-10-07",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 305
+    },
+    {
+     "date": "2026-09-03",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 309
+    },
+    {
+     "date": "2026-08-28",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 293
+    },
+    {
+     "date": "2026-08-21",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 286
+    },
+    {
+     "date": "2026-08-13",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 293
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 306
+    }
+   ],
+   "owner": "chrome_chaser",
+   "mode": "sale",
+   "listed": "2026-10-03",
+   "views": 1370,
+   "hue": 48
+  },
+  {
+   "id": "L1035",
+   "sport": "Pokemon",
+   "player": "Lugia V",
+   "set": "2022 Silver Tempest",
+   "num": "#186 Alt Art",
+   "variant": "Holo",
+   "grader": "SGC",
+   "grade": "10",
+   "cert": "38748452",
+   "pop": 2802,
+   "price": 221,
+   "fair": 227,
+   "comps": [
+    {
+     "date": "2026-10-06",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 208
+    },
+    {
+     "date": "2026-09-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 225
+    },
+    {
+     "date": "2026-09-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 227
+    },
+    {
+     "date": "2026-09-02",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 227
+    },
+    {
+     "date": "2026-08-27",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 228
+    },
+    {
+     "date": "2026-08-10",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 225
+    }
+   ],
+   "owner": "rookie_vault",
+   "mode": "trade",
+   "listed": "2026-10-16",
+   "views": 806,
+   "hue": 115
+  },
+  {
+   "id": "L1036",
+   "sport": "Basketball",
+   "player": "Kobe Bryant",
+   "set": "1996 Topps Chrome",
+   "num": "#138 Rookie",
+   "variant": "Red /299",
+   "grader": "PSA",
+   "grade": "8",
+   "cert": "36040410",
+   "pop": 3016,
+   "price": 632,
+   "fair": 528,
+   "comps": [
+    {
+     "date": "2026-09-26",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 583
+    },
+    {
+     "date": "2026-09-25",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 528
+    },
+    {
+     "date": "2026-09-16",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 580
+    },
+    {
+     "date": "2026-08-13",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 517
+    },
+    {
+     "date": "2026-07-29",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 523
+    }
+   ],
+   "owner": "hobbybox_dan",
+   "mode": "both",
+   "listed": "2026-10-15",
+   "views": 1911,
+   "hue": 144
+  },
+  {
+   "id": "L1037",
+   "sport": "Baseball",
+   "player": "Derek Jeter",
+   "set": "1993 SP",
+   "num": "#279 Rookie",
+   "variant": "Gold /50",
+   "grader": "SGC",
+   "grade": "10",
+   "cert": "20952896",
+   "pop": 3074,
+   "price": 1209,
+   "fair": 1202,
+   "comps": [
+    {
+     "date": "2026-09-28",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 1207
+    },
+    {
+     "date": "2026-09-26",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1195
+    },
+    {
+     "date": "2026-09-21",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 938
+    },
+    {
+     "date": "2026-09-18",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 1202
+    },
+    {
+     "date": "2026-08-16",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1203
+    },
+    {
+     "date": "2026-08-11",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 948
+    }
+   ],
+   "owner": "chrome_chaser",
+   "mode": "trade",
+   "listed": "2026-10-08",
+   "views": 135,
+   "hue": 163
+  },
+  {
+   "id": "L1038",
+   "sport": "Basketball",
+   "player": "Michael Jordan",
+   "set": "1997 Upper Deck",
+   "num": "#18",
+   "variant": "Base",
+   "grader": "CSG",
+   "grade": "10",
+   "cert": "77085942",
+   "pop": 137,
+   "price": 211,
+   "fair": 203,
+   "comps": [
+    {
+     "date": "2026-09-29",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 210
+    },
+    {
+     "date": "2026-09-19",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 211
+    },
+    {
+     "date": "2026-09-16",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 164
+    },
+    {
+     "date": "2026-08-17",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 186
+    },
+    {
+     "date": "2026-07-31",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 203
+    },
+    {
+     "date": "2026-07-30",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 163
+    }
+   ],
+   "owner": "pokepulls_amy",
+   "mode": "sale",
+   "listed": "2026-10-17",
+   "views": 2375,
+   "hue": 123
+  },
+  {
+   "id": "L1039",
+   "sport": "Basketball",
+   "player": "Nikola Jokic",
+   "set": "2015 Panini Prizm",
+   "num": "#291 Rookie",
+   "variant": "Red /299",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "94790150",
+   "pop": 1496,
+   "price": 321,
+   "fair": 312,
+   "comps": [
+    {
+     "date": "2026-10-14",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 285
+    },
+    {
+     "date": "2026-10-11",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 277
+    },
+    {
+     "date": "2026-10-06",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 336
+    },
+    {
+     "date": "2026-09-16",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 312
+    },
+    {
+     "date": "2026-09-04",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 286
+    },
+    {
+     "date": "2026-08-08",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 329
+    },
+    {
+     "date": "2026-07-24",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 318
+    }
+   ],
+   "owner": "sundaysubs",
+   "mode": "both",
+   "listed": "2026-10-05",
+   "views": 278,
+   "hue": 234
+  },
+  {
+   "id": "L1040",
+   "sport": "Basketball",
+   "player": "Victor Wembanyama",
+   "set": "2023 Panini Prizm",
+   "num": "#136 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "66975380",
+   "pop": 649,
+   "price": 170,
+   "fair": 161,
+   "comps": [
+    {
+     "date": "2026-10-11",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 162
+    },
+    {
+     "date": "2026-10-10",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 144
+    },
+    {
+     "date": "2026-08-30",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 172
+    },
+    {
+     "date": "2026-08-28",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 161
+    },
+    {
+     "date": "2026-08-08",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 140
+    },
+    {
+     "date": "2026-07-26",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 155
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "both",
+   "listed": "2026-10-14",
+   "views": 759,
+   "hue": 279
+  },
+  {
+   "id": "L1041",
+   "sport": "Baseball",
+   "player": "Shohei Ohtani",
+   "set": "2018 Topps Update",
+   "num": "#US1 Rookie",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "8",
+   "cert": "59930790",
+   "pop": 3639,
+   "price": 148,
+   "fair": 144,
+   "comps": [
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 165
+    },
+    {
+     "date": "2026-09-16",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 154
+    },
+    {
+     "date": "2026-09-07",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 144
+    },
+    {
+     "date": "2026-09-01",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 165
+    },
+    {
+     "date": "2026-08-31",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 143
+    },
+    {
+     "date": "2026-08-21",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 139
+    },
+    {
+     "date": "2026-07-31",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 142
+    }
+   ],
+   "owner": "sundaysubs",
+   "mode": "both",
+   "listed": "2026-10-03",
+   "views": 2370,
+   "hue": 70
+  },
+  {
+   "id": "L1042",
+   "sport": "Pokemon",
+   "player": "Pikachu Illustrator Tribute",
+   "set": "2023 Pokemon 151",
+   "num": "#173 SIR",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "58518659",
+   "pop": 4170,
+   "price": 190,
+   "fair": 181,
+   "comps": [
+    {
+     "date": "2026-10-07",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 189
+    },
+    {
+     "date": "2026-09-15",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 181
+    },
+    {
+     "date": "2026-09-13",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 194
+    },
+    {
+     "date": "2026-09-10",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 152
+    },
+    {
+     "date": "2026-09-06",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 149
+    },
+    {
+     "date": "2026-08-21",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 192
+    },
+    {
+     "date": "2026-08-14",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 159
+    }
+   ],
+   "owner": "pc_hunter22",
+   "mode": "trade",
+   "listed": "2026-10-08",
+   "views": 517,
+   "hue": 102
+  },
+  {
+   "id": "L1043",
+   "sport": "Basketball",
+   "player": "Kobe Bryant",
+   "set": "1996 Topps Chrome",
+   "num": "#138 Rookie",
+   "variant": "Refractor",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "20584397",
+   "pop": 2055,
+   "price": 1308,
+   "fair": 1472,
+   "comps": [
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1278
+    },
+    {
+     "date": "2026-10-08",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1614
+    },
+    {
+     "date": "2026-10-07",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1472
+    },
+    {
+     "date": "2026-08-20",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 1269
+    },
+    {
+     "date": "2026-08-18",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1568
+    },
+    {
+     "date": "2026-08-16",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 1544
+    },
+    {
+     "date": "2026-08-07",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1389
+    }
+   ],
+   "owner": "hobbybox_dan",
+   "mode": "both",
+   "listed": "2026-10-07",
+   "views": 2276,
+   "hue": 140
+  },
+  {
+   "id": "L1044",
+   "sport": "Basketball",
+   "player": "Kobe Bryant",
+   "set": "1996 Topps Chrome",
+   "num": "#138 Rookie",
+   "variant": "Refractor",
+   "grader": "CGC",
+   "grade": "9.5",
+   "cert": "96155337",
+   "pop": 2477,
+   "price": 1540,
+   "fair": 1502,
+   "comps": [
+    {
+     "date": "2026-10-13",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1633
+    },
+    {
+     "date": "2026-09-27",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1502
+    },
+    {
+     "date": "2026-08-13",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1630
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1334
+    },
+    {
+     "date": "2026-07-31",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1265
+    }
+   ],
+   "owner": "slabking_mike",
+   "mode": "both",
+   "listed": "2026-10-16",
+   "views": 1023,
+   "hue": 350
+  },
+  {
+   "id": "L1045",
+   "sport": "Baseball",
+   "player": "Aaron Judge",
+   "set": "2017 Topps",
+   "num": "#287 Rookie",
+   "variant": "Silver",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "31434525",
+   "pop": 2685,
+   "price": 172,
+   "fair": 194,
+   "comps": [
+    {
+     "date": "2026-10-01",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 194
+    },
+    {
+     "date": "2026-09-26",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 208
+    },
+    {
+     "date": "2026-09-20",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 188
+    },
+    {
+     "date": "2026-09-06",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 187
+    },
+    {
+     "date": "2026-08-30",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 194
+    }
+   ],
+   "owner": "vintage_vic",
+   "mode": "both",
+   "listed": "2026-10-11",
+   "views": 797,
+   "hue": 81
+  },
+  {
+   "id": "L1046",
+   "sport": "Soccer",
+   "player": "Kylian Mbappe",
+   "set": "2018 Panini Prizm World Cup",
+   "num": "#80 Rookie",
+   "variant": "Base",
+   "grader": "SGC",
+   "grade": "10",
+   "cert": "27268907",
+   "pop": 795,
+   "price": 303,
+   "fair": 333,
+   "comps": [
+    {
+     "date": "2026-10-10",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 335
+    },
+    {
+     "date": "2026-10-03",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 365
+    },
+    {
+     "date": "2026-09-01",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 310
+    },
+    {
+     "date": "2026-08-31",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 288
+    },
+    {
+     "date": "2026-08-14",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 371
+    },
+    {
+     "date": "2026-08-13",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 304
+    },
+    {
+     "date": "2026-08-01",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 333
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "both",
+   "listed": "2026-10-13",
+   "views": 1548,
+   "hue": 173
+  },
+  {
+   "id": "L1047",
+   "sport": "Pokemon",
+   "player": "Lugia V",
+   "set": "2022 Silver Tempest",
+   "num": "#186 Alt Art",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "16892773",
+   "pop": 3938,
+   "price": 141,
+   "fair": 138,
+   "comps": [
+    {
+     "date": "2026-10-14",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 132
+    },
+    {
+     "date": "2026-09-08",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 138
+    },
+    {
+     "date": "2026-09-06",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 143
+    },
+    {
+     "date": "2026-09-04",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 114
+    },
+    {
+     "date": "2026-08-24",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 139
+    },
+    {
+     "date": "2026-08-13",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 110
+    },
+    {
+     "date": "2026-08-12",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 141
+    },
+    {
+     "date": "2026-08-09",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 125
+    }
+   ],
+   "owner": "rookie_vault",
+   "mode": "trade",
+   "listed": "2026-10-06",
+   "views": 2167,
+   "hue": 322
+  },
+  {
+   "id": "L1048",
+   "sport": "Baseball",
+   "player": "Derek Jeter",
+   "set": "1993 SP",
+   "num": "#279 Rookie",
+   "variant": "Refractor",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "91883092",
+   "pop": 3969,
+   "price": 517,
+   "fair": 539,
+   "comps": [
+    {
+     "date": "2026-09-27",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 553
+    },
+    {
+     "date": "2026-09-22",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 537
+    },
+    {
+     "date": "2026-08-11",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 539
+    },
+    {
+     "date": "2026-07-30",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 600
+    },
+    {
+     "date": "2026-07-24",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 537
+    }
+   ],
+   "owner": "chrome_chaser",
+   "mode": "both",
+   "listed": "2026-10-07",
+   "views": 1029,
+   "hue": 142
+  },
+  {
+   "id": "L1049",
+   "sport": "Pokemon",
+   "player": "Lugia V",
+   "set": "2022 Silver Tempest",
+   "num": "#186 Alt Art",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "24660143",
+   "pop": 1963,
+   "price": 150,
+   "fair": 163,
+   "comps": [
+    {
+     "date": "2026-10-06",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 163
+    },
+    {
+     "date": "2026-09-28",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 147
+    },
+    {
+     "date": "2026-09-11",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 159
+    },
+    {
+     "date": "2026-09-10",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 165
+    },
+    {
+     "date": "2026-09-06",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 159
+    },
+    {
+     "date": "2026-08-16",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 170
+    },
+    {
+     "date": "2026-08-08",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 170
+    }
+   ],
+   "owner": "rookie_vault",
+   "mode": "trade",
+   "listed": "2026-10-08",
+   "views": 227,
+   "hue": 342
+  },
+  {
+   "id": "L1050",
+   "sport": "Pokemon",
+   "player": "Pikachu Illustrator Tribute",
+   "set": "2023 Pokemon 151",
+   "num": "#173 SIR",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "70981700",
+   "pop": 4049,
+   "price": 94,
+   "fair": 96,
+   "comps": [
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 96
+    },
+    {
+     "date": "2026-09-29",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 107
+    },
+    {
+     "date": "2026-09-26",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 93
+    },
+    {
+     "date": "2026-09-24",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 102
+    },
+    {
+     "date": "2026-09-23",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 81
+    },
+    {
+     "date": "2026-09-21",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 88
+    },
+    {
+     "date": "2026-09-04",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 99
+    },
+    {
+     "date": "2026-08-09",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 92
+    }
+   ],
+   "owner": "chrome_chaser",
+   "mode": "both",
+   "listed": "2026-10-05",
+   "views": 2085,
+   "hue": 239
+  },
+  {
+   "id": "L1051",
+   "sport": "Football",
+   "player": "Lamar Jackson",
+   "set": "2018 Panini Prizm",
+   "num": "#212 Rookie",
+   "variant": "Refractor",
+   "grader": "PSA",
+   "grade": "8",
+   "cert": "31436829",
+   "pop": 3324,
+   "price": 74,
+   "fair": 76,
+   "comps": [
+    {
+     "date": "2026-10-04",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 76
+    },
+    {
+     "date": "2026-09-22",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 84
+    },
+    {
+     "date": "2026-09-15",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 74
+    },
+    {
+     "date": "2026-09-03",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 80
+    },
+    {
+     "date": "2026-08-26",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 67
+    },
+    {
+     "date": "2026-08-20",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 72
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 79
+    },
+    {
+     "date": "2026-07-26",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 69
+    }
+   ],
+   "owner": "graded_gems",
+   "mode": "both",
+   "listed": "2026-10-17",
+   "views": 1293,
+   "hue": 353
+  },
+  {
+   "id": "L1052",
+   "sport": "Basketball",
+   "player": "Caitlin Clark",
+   "set": "2024 Panini Prizm WNBA",
+   "num": "#22 Rookie",
+   "variant": "Silver",
+   "grader": "CGC",
+   "grade": "9.5",
+   "cert": "88268756",
+   "pop": 4007,
+   "price": 228,
+   "fair": 239,
+   "comps": [
+    {
+     "date": "2026-09-18",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 214
+    },
+    {
+     "date": "2026-08-31",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 211
+    },
+    {
+     "date": "2026-08-17",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 249
+    },
+    {
+     "date": "2026-08-07",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 239
+    },
+    {
+     "date": "2026-08-01",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 233
+    },
+    {
+     "date": "2026-07-31",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 250
+    }
+   ],
+   "owner": "pokepulls_amy",
+   "mode": "sale",
+   "listed": "2026-10-03",
+   "views": 2110,
+   "hue": 228
+  },
+  {
+   "id": "L1053",
+   "sport": "Basketball",
+   "player": "Stephen Curry",
+   "set": "2009 Topps",
+   "num": "#321 Rookie",
+   "variant": "Holo",
+   "grader": "BGS",
+   "grade": "9.5",
+   "cert": "0025922674",
+   "pop": 1465,
+   "price": 543,
+   "fair": 527,
+   "comps": [
+    {
+     "date": "2026-10-16",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 481
+    },
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 474
+    },
+    {
+     "date": "2026-09-07",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 508
+    },
+    {
+     "date": "2026-08-29",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 527
+    },
+    {
+     "date": "2026-08-25",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 587
+    },
+    {
+     "date": "2026-08-23",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 479
+    },
+    {
+     "date": "2026-08-05",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 540
+    },
+    {
+     "date": "2026-07-26",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 621
+    }
+   ],
+   "owner": "goatcards",
+   "mode": "trade",
+   "listed": "2026-10-18",
+   "views": 1629,
+   "hue": 270
+  },
+  {
+   "id": "L1054",
+   "sport": "Basketball",
+   "player": "Kobe Bryant",
+   "set": "1996 Topps Chrome",
+   "num": "#138 Rookie",
+   "variant": "Base",
+   "grader": "CGC",
+   "grade": "9",
+   "cert": "63991141",
+   "pop": 3598,
+   "price": 1077,
+   "fair": 1042,
+   "comps": [
+    {
+     "date": "2026-10-12",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 1010
+    },
+    {
+     "date": "2026-10-08",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 947
+    },
+    {
+     "date": "2026-09-17",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1042
+    },
+    {
+     "date": "2026-09-11",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1170
+    },
+    {
+     "date": "2026-09-08",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 1099
+    }
+   ],
+   "owner": "slabking_mike",
+   "mode": "trade",
+   "listed": "2026-10-08",
+   "views": 2230,
+   "hue": 111
+  },
+  {
+   "id": "L1055",
+   "sport": "Basketball",
+   "player": "Stephen Curry",
+   "set": "2009 Topps",
+   "num": "#321 Rookie",
+   "variant": "Silver",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "40245233",
+   "pop": 2466,
+   "price": 773,
+   "fair": 775,
+   "comps": [
+    {
+     "date": "2026-10-09",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 772
+    },
+    {
+     "date": "2026-09-05",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 812
+    },
+    {
+     "date": "2026-08-06",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 832
+    },
+    {
+     "date": "2026-08-04",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 755
+    },
+    {
+     "date": "2026-07-26",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 775
+    },
+    {
+     "date": "2026-07-24",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 694
+    }
+   ],
+   "owner": "pc_hunter22",
+   "mode": "both",
+   "listed": "2026-10-05",
+   "views": 1916,
+   "hue": 29
+  },
+  {
+   "id": "L1056",
+   "sport": "Pokemon",
+   "player": "Lugia V",
+   "set": "2022 Silver Tempest",
+   "num": "#186 Alt Art",
+   "variant": "Holo",
+   "grader": "BGS",
+   "grade": "10",
+   "cert": "0091121400",
+   "pop": 1678,
+   "price": 323,
+   "fair": 344,
+   "comps": [
+    {
+     "date": "2026-10-05",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 350
+    },
+    {
+     "date": "2026-09-04",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 344
+    },
+    {
+     "date": "2026-08-28",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 343
+    },
+    {
+     "date": "2026-08-02",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 344
+    },
+    {
+     "date": "2026-07-31",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 341
+    },
+    {
+     "date": "2026-07-26",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 410
+    }
+   ],
+   "owner": "pokepulls_amy",
+   "mode": "trade",
+   "listed": "2026-10-13",
+   "views": 1000,
+   "hue": 282
+  },
+  {
+   "id": "L1057",
+   "sport": "Baseball",
+   "player": "Juan Soto",
+   "set": "2018 Topps Update",
+   "num": "#US300 Rookie",
+   "variant": "Refractor",
+   "grader": "CSG",
+   "grade": "9.5",
+   "cert": "75581613",
+   "pop": 4021,
+   "price": 115,
+   "fair": 125,
+   "comps": [
+    {
+     "date": "2026-09-28",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 125
+    },
+    {
+     "date": "2026-09-07",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 123
+    },
+    {
+     "date": "2026-09-04",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 125
+    },
+    {
+     "date": "2026-08-25",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 136
+    },
+    {
+     "date": "2026-08-17",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 119
+    },
+    {
+     "date": "2026-08-14",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 133
+    },
+    {
+     "date": "2026-08-03",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 111
+    }
+   ],
+   "owner": "sundaysubs",
+   "mode": "both",
+   "listed": "2026-10-15",
+   "views": 709,
+   "hue": 180
+  },
+  {
+   "id": "L1058",
+   "sport": "Football",
+   "player": "Patrick Mahomes",
+   "set": "2017 Panini Prizm",
+   "num": "#269 Rookie",
+   "variant": "Refractor",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "12300840",
+   "pop": 4117,
+   "price": 713,
+   "fair": 708,
+   "comps": [
+    {
+     "date": "2026-10-15",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 708
+    },
+    {
+     "date": "2026-10-10",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 644
+    },
+    {
+     "date": "2026-10-09",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 620
+    },
+    {
+     "date": "2026-08-10",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 806
+    },
+    {
+     "date": "2026-07-28",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 759
+    }
+   ],
+   "owner": "slabking_mike",
+   "mode": "both",
+   "listed": "2026-10-14",
+   "views": 754,
+   "hue": 54
+  },
+  {
+   "id": "L1059",
+   "sport": "Basketball",
+   "player": "Michael Jordan",
+   "set": "1997 Upper Deck",
+   "num": "#18",
+   "variant": "Silver",
+   "grader": "SGC",
+   "grade": "9",
+   "cert": "86072480",
+   "pop": 3898,
+   "price": 154,
+   "fair": 109,
+   "comps": [
+    {
+     "date": "2026-10-06",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 97
+    },
+    {
+     "date": "2026-09-25",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 110
+    },
+    {
+     "date": "2026-09-18",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 109
+    },
+    {
+     "date": "2026-09-01",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 88
+    },
+    {
+     "date": "2026-08-29",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 104
+    },
+    {
+     "date": "2026-08-26",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 114
+    },
+    {
+     "date": "2026-07-26",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 113
+    }
+   ],
+   "owner": "slabking_mike",
+   "mode": "trade",
+   "listed": "2026-10-09",
+   "views": 210,
+   "hue": 38
+  }
+ ],
+ "mine": [
+  {
+   "id": "M1",
+   "sport": "Basketball",
+   "player": "LeBron James",
+   "set": "2003 Topps Chrome",
+   "num": "#111 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "89941241",
+   "pop": 1674,
+   "fair": 645,
+   "comps": [
+    {
+     "date": "2026-10-07",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 677
+    },
+    {
+     "date": "2026-09-29",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 673
+    },
+    {
+     "date": "2026-09-16",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 610
+    },
+    {
+     "date": "2026-09-11",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 706
+    },
+    {
+     "date": "2026-09-06",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 645
+    },
+    {
+     "date": "2026-09-02",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 619
+    },
+    {
+     "date": "2026-08-27",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 570
+    }
+   ],
+   "owner": "you",
+   "mode": "trade",
+   "price": 664,
+   "cost": 620,
+   "costDate": "2023-02-14",
+   "hideCost": false,
+   "hue": 15,
+   "listed": "2026-10-01",
+   "views": 144
+  },
+  {
+   "id": "M2",
+   "sport": "Football",
+   "player": "Patrick Mahomes",
+   "set": "2017 Panini Prizm",
+   "num": "#269 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "51374957",
+   "pop": 1871,
+   "fair": 792,
+   "comps": [
+    {
+     "date": "2026-09-12",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 865
+    },
+    {
+     "date": "2026-09-09",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 719
+    },
+    {
+     "date": "2026-08-31",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 704
+    },
+    {
+     "date": "2026-08-29",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 858
+    },
+    {
+     "date": "2026-08-20",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 784
+    },
+    {
+     "date": "2026-07-27",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 792
+    },
+    {
+     "date": "2026-07-24",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 879
+    }
+   ],
+   "owner": "you",
+   "mode": "trade",
+   "price": 816,
+   "cost": 410,
+   "costDate": "2022-08-03",
+   "hideCost": false,
+   "hue": 138,
+   "listed": "2026-10-01",
+   "views": 57
+  },
+  {
+   "id": "M3",
+   "sport": "Baseball",
+   "player": "Shohei Ohtani",
+   "set": "2018 Topps Update",
+   "num": "#US1 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "9",
+   "cert": "29587040",
+   "pop": 309,
+   "fair": 283,
+   "comps": [
+    {
+     "date": "2026-09-29",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 274
+    },
+    {
+     "date": "2026-09-23",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 298
+    },
+    {
+     "date": "2026-09-15",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 283
+    },
+    {
+     "date": "2026-09-05",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 276
+    },
+    {
+     "date": "2026-09-01",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 301
+    },
+    {
+     "date": "2026-08-28",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 326
+    },
+    {
+     "date": "2026-08-12",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 254
+    }
+   ],
+   "owner": "you",
+   "mode": "none",
+   "price": 291,
+   "cost": 290,
+   "costDate": "2024-01-20",
+   "hideCost": false,
+   "hue": 222,
+   "listed": "2026-10-01",
+   "views": 146
+  },
+  {
+   "id": "M4",
+   "sport": "Pokemon",
+   "player": "Charizard",
+   "set": "1999 Pokemon Base Set",
+   "num": "#4 Holo",
+   "variant": "Holo",
+   "grader": "PSA",
+   "grade": "8",
+   "cert": "94946730",
+   "pop": 2061,
+   "fair": 918,
+   "comps": [
+    {
+     "date": "2026-09-29",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1051
+    },
+    {
+     "date": "2026-09-21",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 850
+    },
+    {
+     "date": "2026-09-15",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 923
+    },
+    {
+     "date": "2026-09-04",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 918
+    },
+    {
+     "date": "2026-08-27",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 995
+    },
+    {
+     "date": "2026-08-22",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 887
+    },
+    {
+     "date": "2026-08-16",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 869
+    }
+   ],
+   "owner": "you",
+   "mode": "both",
+   "price": 946,
+   "cost": 900,
+   "costDate": "2021-11-05",
+   "hideCost": true,
+   "hue": 124,
+   "listed": "2026-10-01",
+   "views": 171
+  },
+  {
+   "id": "M5",
+   "sport": "Hockey",
+   "player": "Connor McDavid",
+   "set": "2015 Upper Deck Young Guns",
+   "num": "#201 Rookie",
+   "variant": "Base",
+   "grader": "BGS",
+   "grade": "9.5",
+   "cert": "66143368",
+   "pop": 2276,
+   "fair": 1086,
+   "comps": [
+    {
+     "date": "2026-10-13",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 1057
+    },
+    {
+     "date": "2026-09-29",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1001
+    },
+    {
+     "date": "2026-09-27",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 948
+    },
+    {
+     "date": "2026-09-21",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 1157
+    },
+    {
+     "date": "2026-09-09",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1128
+    },
+    {
+     "date": "2026-08-27",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 1206
+    },
+    {
+     "date": "2026-08-01",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 1086
+    }
+   ],
+   "owner": "you",
+   "mode": "none",
+   "price": 1119,
+   "cost": 980,
+   "costDate": "2023-06-11",
+   "hideCost": false,
+   "hue": 184,
+   "listed": "2026-10-01",
+   "views": 279
+  },
+  {
+   "id": "M6",
+   "sport": "Basketball",
+   "player": "Victor Wembanyama",
+   "set": "2023 Panini Prizm",
+   "num": "#136 Rookie",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "21523236",
+   "pop": 525,
+   "fair": 345,
+   "comps": [
+    {
+     "date": "2026-10-06",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 349
+    },
+    {
+     "date": "2026-09-18",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 322
+    },
+    {
+     "date": "2026-09-01",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 345
+    },
+    {
+     "date": "2026-08-22",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 296
+    },
+    {
+     "date": "2026-08-18",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 381
+    },
+    {
+     "date": "2026-08-16",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 326
+    },
+    {
+     "date": "2026-08-05",
+     "source": "Alt",
+     "type": "Alt Auction",
+     "price": 378
+    }
+   ],
+   "owner": "you",
+   "mode": "both",
+   "price": 355,
+   "cost": 380,
+   "costDate": "2024-07-02",
+   "hideCost": false,
+   "hue": 72,
+   "listed": "2026-10-01",
+   "views": 183
+  },
+  {
+   "id": "M7",
+   "sport": "Football",
+   "player": "C.J. Stroud",
+   "set": "2023 Panini Prizm",
+   "num": "#339 Rookie",
+   "variant": "Base",
+   "grader": "SGC",
+   "grade": "10",
+   "cert": "35016429",
+   "pop": 2673,
+   "fair": 158,
+   "comps": [
+    {
+     "date": "2026-10-02",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 166
+    },
+    {
+     "date": "2026-09-26",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 156
+    },
+    {
+     "date": "2026-09-25",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 145
+    },
+    {
+     "date": "2026-08-20",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 150
+    },
+    {
+     "date": "2026-08-19",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 158
+    },
+    {
+     "date": "2026-08-18",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 165
+    },
+    {
+     "date": "2026-08-17",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 169
+    }
+   ],
+   "owner": "you",
+   "mode": "both",
+   "price": 163,
+   "cost": 210,
+   "costDate": "2024-09-15",
+   "hideCost": false,
+   "hue": 221,
+   "listed": "2026-10-01",
+   "views": 207
+  },
+  {
+   "id": "M8",
+   "sport": "Soccer",
+   "player": "Lionel Messi",
+   "set": "2014 Panini Prizm World Cup",
+   "num": "#12",
+   "variant": "Base",
+   "grader": "PSA",
+   "grade": "10",
+   "cert": "71453007",
+   "pop": 2578,
+   "fair": 313,
+   "comps": [
+    {
+     "date": "2026-09-11",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 291
+    },
+    {
+     "date": "2026-08-28",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 301
+    },
+    {
+     "date": "2026-08-27",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 313
+    },
+    {
+     "date": "2026-08-19",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 343
+    },
+    {
+     "date": "2026-08-15",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 317
+    },
+    {
+     "date": "2026-08-09",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 311
+    },
+    {
+     "date": "2026-07-30",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 335
+    }
+   ],
+   "owner": "you",
+   "mode": "none",
+   "price": 322,
+   "cost": 300,
+   "costDate": "2022-12-01",
+   "hideCost": false,
+   "hue": 344,
+   "listed": "2026-10-01",
+   "views": 157
+  },
+  {
+   "id": "M9",
+   "sport": "Pokemon",
+   "player": "Umbreon VMAX",
+   "set": "2021 Evolving Skies",
+   "num": "#215 Alt Art",
+   "variant": "Holo",
+   "grader": "CGC",
+   "grade": "9.5",
+   "cert": "75043108",
+   "pop": 609,
+   "fair": 870,
+   "comps": [
+    {
+     "date": "2026-10-01",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 803
+    },
+    {
+     "date": "2026-09-23",
+     "source": "Alt",
+     "type": "Alt Marketplace",
+     "price": 913
+    },
+    {
+     "date": "2026-08-30",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 871
+    },
+    {
+     "date": "2026-08-20",
+     "source": "eBay sold",
+     "type": "Buy It Now",
+     "price": 1013
+    },
+    {
+     "date": "2026-08-15",
+     "source": "eBay sold",
+     "type": "Auction",
+     "price": 820
+    },
+    {
+     "date": "2026-08-02",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 807
+    },
+    {
+     "date": "2026-08-01",
+     "source": "eBay sold",
+     "type": "Best Offer accepted",
+     "price": 870
+    }
+   ],
+   "owner": "you",
+   "mode": "none",
+   "price": 896,
+   "cost": 820,
+   "costDate": "2025-03-09",
+   "hideCost": false,
+   "hue": 196,
+   "listed": "2026-10-01",
+   "views": 292
+  }
+ ],
+ "catalog": [
+  {
+   "sport": "Basketball",
+   "player": "LeBron James",
+   "set": "2003 Topps Chrome",
+   "num": "#111 Rookie",
+   "base": 950
+  },
+  {
+   "sport": "Basketball",
+   "player": "Luka Doncic",
+   "set": "2018 Panini Prizm",
+   "num": "#280 Rookie",
+   "base": 420
+  },
+  {
+   "sport": "Basketball",
+   "player": "Victor Wembanyama",
+   "set": "2023 Panini Prizm",
+   "num": "#136 Rookie",
+   "base": 310
+  },
+  {
+   "sport": "Basketball",
+   "player": "Stephen Curry",
+   "set": "2009 Topps",
+   "num": "#321 Rookie",
+   "base": 640
+  },
+  {
+   "sport": "Basketball",
+   "player": "Giannis Antetokounmpo",
+   "set": "2013 Panini Prizm",
+   "num": "#290 Rookie",
+   "base": 780
+  },
+  {
+   "sport": "Basketball",
+   "player": "Anthony Edwards",
+   "set": "2020 Panini Prizm",
+   "num": "#258 Rookie",
+   "base": 260
+  },
+  {
+   "sport": "Basketball",
+   "player": "Michael Jordan",
+   "set": "1997 Upper Deck",
+   "num": "#18",
+   "base": 180
+  },
+  {
+   "sport": "Basketball",
+   "player": "Caitlin Clark",
+   "set": "2024 Panini Prizm WNBA",
+   "num": "#22 Rookie",
+   "base": 290
+  },
+  {
+   "sport": "Basketball",
+   "player": "Kobe Bryant",
+   "set": "1996 Topps Chrome",
+   "num": "#138 Rookie",
+   "base": 1650
+  },
+  {
+   "sport": "Basketball",
+   "player": "Nikola Jokic",
+   "set": "2015 Panini Prizm",
+   "num": "#291 Rookie",
+   "base": 350
+  },
+  {
+   "sport": "Football",
+   "player": "Patrick Mahomes",
+   "set": "2017 Panini Prizm",
+   "num": "#269 Rookie",
+   "base": 720
+  },
+  {
+   "sport": "Football",
+   "player": "Josh Allen",
+   "set": "2018 Panini Prizm",
+   "num": "#205 Rookie",
+   "base": 380
+  },
+  {
+   "sport": "Football",
+   "player": "Justin Jefferson",
+   "set": "2020 Panini Prizm",
+   "num": "#398 Rookie",
+   "base": 210
+  },
+  {
+   "sport": "Football",
+   "player": "C.J. Stroud",
+   "set": "2023 Panini Prizm",
+   "num": "#339 Rookie",
+   "base": 160
+  },
+  {
+   "sport": "Football",
+   "player": "Tom Brady",
+   "set": "2000 Bowman",
+   "num": "#236 Rookie",
+   "base": 1400
+  },
+  {
+   "sport": "Football",
+   "player": "Joe Burrow",
+   "set": "2020 Panini Prizm",
+   "num": "#307 Rookie",
+   "base": 240
+  },
+  {
+   "sport": "Football",
+   "player": "Jayden Daniels",
+   "set": "2024 Panini Prizm",
+   "num": "#331 Rookie",
+   "base": 190
+  },
+  {
+   "sport": "Football",
+   "player": "Lamar Jackson",
+   "set": "2018 Panini Prizm",
+   "num": "#212 Rookie",
+   "base": 230
+  },
+  {
+   "sport": "Baseball",
+   "player": "Shohei Ohtani",
+   "set": "2018 Topps Update",
+   "num": "#US1 Rookie",
+   "base": 520
+  },
+  {
+   "sport": "Baseball",
+   "player": "Mike Trout",
+   "set": "2011 Topps Update",
+   "num": "#US175 Rookie",
+   "base": 880
+  },
+  {
+   "sport": "Baseball",
+   "player": "Juan Soto",
+   "set": "2018 Topps Update",
+   "num": "#US300 Rookie",
+   "base": 150
+  },
+  {
+   "sport": "Baseball",
+   "player": "Ken Griffey Jr.",
+   "set": "1989 Upper Deck",
+   "num": "#1 Rookie",
+   "base": 620
+  },
+  {
+   "sport": "Baseball",
+   "player": "Elly De La Cruz",
+   "set": "2023 Topps Chrome Update",
+   "num": "#USC1 Rookie",
+   "base": 140
+  },
+  {
+   "sport": "Baseball",
+   "player": "Paul Skenes",
+   "set": "2024 Topps Chrome Update",
+   "num": "#USC150 Rookie",
+   "base": 210
+  },
+  {
+   "sport": "Baseball",
+   "player": "Derek Jeter",
+   "set": "1993 SP",
+   "num": "#279 Rookie",
+   "base": 1100
+  },
+  {
+   "sport": "Baseball",
+   "player": "Aaron Judge",
+   "set": "2017 Topps",
+   "num": "#287 Rookie",
+   "base": 240
+  },
+  {
+   "sport": "Hockey",
+   "player": "Connor McDavid",
+   "set": "2015 Upper Deck Young Guns",
+   "num": "#201 Rookie",
+   "base": 1250
+  },
+  {
+   "sport": "Hockey",
+   "player": "Wayne Gretzky",
+   "set": "1979 O-Pee-Chee",
+   "num": "#18 Rookie",
+   "base": 4800
+  },
+  {
+   "sport": "Hockey",
+   "player": "Connor Bedard",
+   "set": "2023 Upper Deck Young Guns",
+   "num": "#451 Rookie",
+   "base": 420
+  },
+  {
+   "sport": "Soccer",
+   "player": "Lionel Messi",
+   "set": "2014 Panini Prizm World Cup",
+   "num": "#12",
+   "base": 360
+  },
+  {
+   "sport": "Soccer",
+   "player": "Erling Haaland",
+   "set": "2020 Topps Chrome UCL",
+   "num": "#61 Rookie",
+   "base": 280
+  },
+  {
+   "sport": "Soccer",
+   "player": "Kylian Mbappe",
+   "set": "2018 Panini Prizm World Cup",
+   "num": "#80 Rookie",
+   "base": 330
+  },
+  {
+   "sport": "Pokemon",
+   "player": "Charizard",
+   "set": "1999 Pokemon Base Set",
+   "num": "#4 Holo",
+   "base": 2600
+  },
+  {
+   "sport": "Pokemon",
+   "player": "Pikachu Illustrator Tribute",
+   "set": "2023 Pokemon 151",
+   "num": "#173 SIR",
+   "base": 180
+  },
+  {
+   "sport": "Pokemon",
+   "player": "Umbreon VMAX",
+   "set": "2021 Evolving Skies",
+   "num": "#215 Alt Art",
+   "base": 900
+  },
+  {
+   "sport": "Pokemon",
+   "player": "Lugia V",
+   "set": "2022 Silver Tempest",
+   "num": "#186 Alt Art",
+   "base": 230
+  }
+ ]
+}
