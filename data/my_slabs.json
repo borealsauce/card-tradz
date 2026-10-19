@@ -5,14 +5,17 @@
   "player": "Lionel Messi",
   "set": "2018 Topps Chrome UEFA Champions League",
   "num": "#1",
-  "variant": "Running – Refractor",
+  "variant": "Running \u2013 Refractor",
   "grader": "PSA",
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "48277011",
   "pop": 81,
   "img": "assets/slabs/messi.webp",
-  "psaVerified": true
+  "psaVerified": true,
+  "photos": [
+   "assets/photos/messi_1.jpg"
+  ]
  },
  {
   "id": "R2",
@@ -27,7 +30,10 @@
   "gradeLabel": "GEM MT 10",
   "cert": "90929295",
   "img": "assets/slabs/wemby_hoops.webp",
-  "psaVerified": true
+  "psaVerified": true,
+  "photos": [
+   "assets/photos/wemby_hoops_1.jpg"
+  ]
  },
  {
   "id": "R3",
@@ -41,7 +47,10 @@
   "gradeLabel": "GEM MT 10",
   "cert": "76785557",
   "img": "assets/slabs/verstappen.webp",
-  "psaVerified": false
+  "psaVerified": false,
+  "photos": [
+   "assets/photos/verstappen_1.jpg"
+  ]
  },
  {
   "id": "R4",
@@ -55,7 +64,10 @@
   "gradeLabel": "MINT 9",
   "cert": "95985438",
   "img": "assets/slabs/deion.webp",
-  "psaVerified": true
+  "psaVerified": true,
+  "photos": [
+   "assets/photos/deion_1.jpg"
+  ]
  },
  {
   "id": "R5",
@@ -70,7 +82,10 @@
   "gradeLabel": "MINT 9",
   "cert": "88434839",
   "img": "assets/slabs/wemby_monopoly.webp",
-  "psaVerified": false
+  "psaVerified": false,
+  "photos": [
+   "assets/photos/wemby_monopoly_1.jpg"
+  ]
  },
  {
   "id": "R6",
@@ -84,7 +99,10 @@
   "gradeLabel": "MINT 9",
   "cert": "59346594",
   "img": "assets/slabs/bo_jackson.webp",
-  "psaVerified": false
+  "psaVerified": false,
+  "photos": [
+   "assets/photos/bo_jackson_1.jpg"
+  ]
  },
  {
   "grader": "PSA",
@@ -99,7 +117,10 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "92212201",
-  "img": "assets/slabs/wemby_winter.webp"
+  "img": "assets/slabs/wemby_winter.webp",
+  "photos": [
+   "assets/photos/wemby_winter_1.jpg"
+  ]
  },
  {
   "grader": "PSA",
@@ -114,7 +135,10 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "92212220",
-  "img": "assets/slabs/wemby_xpect.webp"
+  "img": "assets/slabs/wemby_xpect.webp",
+  "photos": [
+   "assets/photos/wemby_xpect_1.jpg"
+  ]
  },
  {
   "grader": "PSA",
@@ -129,7 +153,10 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "92212210",
-  "img": "assets/slabs/wemby_greetings.webp"
+  "img": "assets/slabs/wemby_greetings.webp",
+  "photos": [
+   "assets/photos/wemby_greetings_1.jpg"
+  ]
  },
  {
   "grader": "PSA",
@@ -144,7 +171,10 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "92212493",
-  "img": "assets/slabs/wemby_rookies.webp"
+  "img": "assets/slabs/wemby_rookies.webp",
+  "photos": [
+   "assets/photos/wemby_rookies_1.jpg"
+  ]
  },
  {
   "grader": "PSA",
@@ -159,7 +189,10 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "52349521",
-  "img": "assets/slabs/ja_morant.webp"
+  "img": "assets/slabs/ja_morant.webp",
+  "photos": [
+   "assets/photos/ja_morant_1.jpg"
+  ]
  },
  {
   "grader": "PSA",
@@ -174,6 +207,9 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "80482412",
-  "img": "assets/slabs/rodgers.webp"
+  "img": "assets/slabs/rodgers.webp",
+  "photos": [
+   "assets/photos/rodgers_1.jpg"
+  ]
  }
 ]
