@@ -15,7 +15,9 @@
   "psaVerified": true,
   "photos": [
    "assets/photos/messi_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-03",
+  "demoCost": 90
  },
  {
   "id": "R2",
@@ -33,7 +35,9 @@
   "psaVerified": true,
   "photos": [
    "assets/photos/wemby_hoops_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-07",
+  "demoCost": 110
  },
  {
   "id": "R3",
@@ -50,7 +54,9 @@
   "psaVerified": false,
   "photos": [
    "assets/photos/verstappen_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-11",
+  "demoCost": 90
  },
  {
   "id": "R4",
@@ -67,7 +73,9 @@
   "psaVerified": true,
   "photos": [
    "assets/photos/deion_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-12",
+  "demoCost": 40
  },
  {
   "id": "R5",
@@ -85,7 +93,9 @@
   "psaVerified": false,
   "photos": [
    "assets/photos/wemby_monopoly_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-16",
+  "demoCost": 110
  },
  {
   "id": "R6",
@@ -102,7 +112,9 @@
   "psaVerified": false,
   "photos": [
    "assets/photos/bo_jackson_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-20",
+  "demoCost": 90
  },
  {
   "grader": "PSA",
@@ -120,7 +132,9 @@
   "img": "assets/slabs/wemby_winter.webp",
   "photos": [
    "assets/photos/wemby_winter_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-21",
+  "demoCost": 40
  },
  {
   "grader": "PSA",
@@ -138,7 +152,9 @@
   "img": "assets/slabs/wemby_xpect.webp",
   "photos": [
    "assets/photos/wemby_xpect_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-25",
+  "demoCost": 30
  },
  {
   "grader": "PSA",
@@ -156,7 +172,9 @@
   "img": "assets/slabs/wemby_greetings.webp",
   "photos": [
    "assets/photos/wemby_greetings_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-29",
+  "demoCost": 130
  },
  {
   "grader": "PSA",
@@ -174,7 +192,9 @@
   "img": "assets/slabs/wemby_rookies.webp",
   "photos": [
    "assets/photos/wemby_rookies_1.jpg"
-  ]
+  ],
+  "costDate": "2024-10-30",
+  "demoCost": 35
  },
  {
   "grader": "PSA",
@@ -192,7 +212,9 @@
   "img": "assets/slabs/ja_morant.webp",
   "photos": [
    "assets/photos/ja_morant_1.jpg"
-  ]
+  ],
+  "costDate": "2024-11-03",
+  "demoCost": 60
  },
  {
   "grader": "PSA",
@@ -210,6 +232,8 @@
   "img": "assets/slabs/rodgers.webp",
   "photos": [
    "assets/photos/rodgers_1.jpg"
-  ]
+  ],
+  "costDate": "2024-11-07",
+  "demoCost": 40
  }
 ]

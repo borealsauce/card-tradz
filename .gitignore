@@ -3,3 +3,5 @@ __pycache__/
 test_media/
 .psa_token
 *.token
+data/ebay_purchases.xlsx
+data/ebay_purchases.json
