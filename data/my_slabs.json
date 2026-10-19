@@ -22,7 +22,12 @@
   "imgBack": "assets/sample/48277011_back_main.webp",
   "psaFront": "assets/sample/48277011_front.jpg",
   "psaBack": "assets/sample/48277011_back.jpg",
-  "sampleImg": true
+  "sampleImg": true,
+  "tradeCats": [
+   "Soccer",
+   "Basketball",
+   "Racing/F1/NASCAR"
+  ]
  },
  {
   "id": "R2",
@@ -46,7 +51,12 @@
   "demoCost": 110,
   "imgBack": "assets/psa/90929295_back_main.webp",
   "psaFront": "assets/psa/90929295_front.jpg",
-  "psaBack": "assets/psa/90929295_back.jpg"
+  "psaBack": "assets/psa/90929295_back.jpg",
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "id": "R3",
@@ -69,7 +79,12 @@
   "demoCost": 90,
   "imgBack": "assets/psa/76785557_back_main.webp",
   "psaFront": "assets/psa/76785557_front.jpg",
-  "psaBack": "assets/psa/76785557_back.jpg"
+  "psaBack": "assets/psa/76785557_back.jpg",
+  "tradeCats": [
+   "Racing/F1/NASCAR",
+   "Soccer",
+   "Basketball"
+  ]
  },
  {
   "id": "R4",
@@ -92,7 +107,12 @@
   "demoCost": 40,
   "imgBack": "assets/psa/95985438_back_main.webp",
   "psaFront": "assets/psa/95985438_front.jpg",
-  "psaBack": "assets/psa/95985438_back.jpg"
+  "psaBack": "assets/psa/95985438_back.jpg",
+  "tradeCats": [
+   "Baseball",
+   "Football",
+   "Multi-sport"
+  ]
  },
  {
   "id": "R5",
@@ -116,7 +136,12 @@
   "demoCost": 110,
   "imgBack": "assets/psa/88434839_back_main.webp",
   "psaFront": "assets/psa/88434839_front.jpg",
-  "psaBack": "assets/psa/88434839_back.jpg"
+  "psaBack": "assets/psa/88434839_back.jpg",
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "id": "R6",
@@ -140,7 +165,12 @@
   "imgBack": "assets/sample/59346594_back_main.webp",
   "psaFront": "assets/sample/59346594_front.jpg",
   "psaBack": "assets/sample/59346594_back.jpg",
-  "sampleImg": true
+  "sampleImg": true,
+  "tradeCats": [
+   "Baseball",
+   "Football",
+   "Multi-sport"
+  ]
  },
  {
   "grader": "PSA",
@@ -163,7 +193,12 @@
   "demoCost": 40,
   "imgBack": "assets/psa/92212201_back_main.webp",
   "psaFront": "assets/psa/92212201_front.jpg",
-  "psaBack": "assets/psa/92212201_back.jpg"
+  "psaBack": "assets/psa/92212201_back.jpg",
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "grader": "PSA",
@@ -186,7 +221,12 @@
   "demoCost": 30,
   "imgBack": "assets/psa/92212220_back_main.webp",
   "psaFront": "assets/psa/92212220_front.jpg",
-  "psaBack": "assets/psa/92212220_back.jpg"
+  "psaBack": "assets/psa/92212220_back.jpg",
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "grader": "PSA",
@@ -209,7 +249,12 @@
   "demoCost": 130,
   "imgBack": "assets/psa/92212210_back_main.webp",
   "psaFront": "assets/psa/92212210_front.jpg",
-  "psaBack": "assets/psa/92212210_back.jpg"
+  "psaBack": "assets/psa/92212210_back.jpg",
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "grader": "PSA",
@@ -232,7 +277,12 @@
   "demoCost": 35,
   "imgBack": "assets/psa/92212493_back_main.webp",
   "psaFront": "assets/psa/92212493_front.jpg",
-  "psaBack": "assets/psa/92212493_back.jpg"
+  "psaBack": "assets/psa/92212493_back.jpg",
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "grader": "PSA",
@@ -257,7 +307,12 @@
   "ebayDate": "2023-09-15",
   "ebayItem": "155761833887",
   "ebayUrl": "https://www.ebay.com/itm/155761833887",
-  "costNote": "From eBay \u00b7 bid only \u00b7 match unconfirmed"
+  "costNote": "From eBay \u00b7 bid only \u00b7 match unconfirmed",
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "grader": "PSA",
@@ -280,7 +335,12 @@
   "demoCost": 40,
   "imgBack": "assets/psa/80482412_back_main.webp",
   "psaFront": "assets/psa/80482412_front.jpg",
-  "psaBack": "assets/psa/80482412_back.jpg"
+  "psaBack": "assets/psa/80482412_back.jpg",
+  "tradeCats": [
+   "Football",
+   "Baseball",
+   "Basketball"
+  ]
  },
  {
   "id": "R13",
@@ -302,7 +362,12 @@
   "ebayUrl": "https://www.ebay.com/itm/314815103662",
   "ebayTitle": "Conor McGregor PSA 9 2022... (title truncated)",
   "costNote": "From eBay \u00b7 bid only",
-  "photos": []
+  "photos": [],
+  "tradeCats": [
+   "MMA/UFC",
+   "Boxing",
+   "Wrestling"
+  ]
  },
  {
   "id": "R14",
@@ -324,7 +389,12 @@
   "ebayUrl": "https://www.ebay.com/itm/285467195109",
   "ebayTitle": "2021 Panini Donruss Lebron... (title truncated)",
   "costNote": "From eBay \u00b7 bid only",
-  "photos": []
+  "photos": [],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "id": "R15",
@@ -346,7 +416,12 @@
   "ebayUrl": "https://www.ebay.com/itm/266408138434",
   "ebayTitle": "2021 Donruss Net Marvels... (title truncated)",
   "costNote": "From eBay \u00b7 bid only",
-  "photos": []
+  "photos": [],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "id": "R16",
@@ -368,7 +443,12 @@
   "ebayUrl": "https://www.ebay.com/itm/266408138460",
   "ebayTitle": "2021 Donruss Net Marvels... (title truncated)",
   "costNote": "From eBay \u00b7 bid only",
-  "photos": []
+  "photos": [],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "id": "R17",
@@ -390,7 +470,12 @@
   "ebayUrl": "https://www.ebay.com/itm/394873414606",
   "ebayTitle": "JAYSON TATUM 2021 22 Panini... (title truncated)",
   "costNote": "From eBay \u00b7 bid only",
-  "photos": []
+  "photos": [],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  },
  {
   "id": "R18",
@@ -412,6 +497,11 @@
   "ebayUrl": "https://www.ebay.com/itm/266409391668",
   "ebayTitle": "2021 Donruss Net Marvels... (title truncated)",
   "costNote": "From eBay \u00b7 bid only",
-  "photos": []
+  "photos": [],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pok\u00e9mon"
+  ]
  }
 ]
