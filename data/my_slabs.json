@@ -14,7 +14,8 @@
   "img": "assets/sample/48277011_front_main.webp",
   "psaVerified": true,
   "photos": [
-   "assets/photos/messi_1.jpg"
+   "assets/photos/messi_1.jpg",
+   "assets/photos/messi_2.jpg"
   ],
   "costDate": "2024-10-03",
   "demoCost": 90,
@@ -38,7 +39,8 @@
   "img": "assets/psa/90929295_front_main.webp",
   "psaVerified": true,
   "photos": [
-   "assets/photos/wemby_hoops_1.jpg"
+   "assets/photos/wemby_hoops_1.jpg",
+   "assets/photos/wemby_hoops_2.jpg"
   ],
   "costDate": "2024-10-07",
   "demoCost": 110,
@@ -60,7 +62,8 @@
   "img": "assets/psa/76785557_front_main.webp",
   "psaVerified": false,
   "photos": [
-   "assets/photos/verstappen_1.jpg"
+   "assets/photos/verstappen_1.jpg",
+   "assets/photos/verstappen_2.jpg"
   ],
   "costDate": "2024-10-11",
   "demoCost": 90,
@@ -82,7 +85,8 @@
   "img": "assets/psa/95985438_front_main.webp",
   "psaVerified": true,
   "photos": [
-   "assets/photos/deion_1.jpg"
+   "assets/photos/deion_1.jpg",
+   "assets/photos/deion_2.jpg"
   ],
   "costDate": "2024-10-12",
   "demoCost": 40,
@@ -105,7 +109,8 @@
   "img": "assets/psa/88434839_front_main.webp",
   "psaVerified": false,
   "photos": [
-   "assets/photos/wemby_monopoly_1.jpg"
+   "assets/photos/wemby_monopoly_1.jpg",
+   "assets/photos/wemby_monopoly_2.jpg"
   ],
   "costDate": "2024-10-16",
   "demoCost": 110,
@@ -127,7 +132,8 @@
   "img": "assets/sample/59346594_front_main.webp",
   "psaVerified": false,
   "photos": [
-   "assets/photos/bo_jackson_1.jpg"
+   "assets/photos/bo_jackson_1.jpg",
+   "assets/photos/bo_jackson_2.jpg"
   ],
   "costDate": "2024-10-20",
   "demoCost": 90,
