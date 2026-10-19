@@ -121,3 +121,6 @@ table.mini{font-size:12px;margin:4px 0}table.mini th,table.mini td{padding:4px 6
 .backbtn{display:inline-flex;align-items:center;gap:6px;min-height:46px;padding:10px 18px;margin-bottom:10px;border:1px solid rgba(168,120,255,.55);border-radius:12px;background:rgba(124,77,255,.14);color:#fff;font-weight:700;font-size:16px;text-decoration:none}
 .backbtn:hover,.backbtn:active{background:rgba(124,77,255,.3)}
 @media(max-width:640px){.backbtn{display:flex;width:100%;justify-content:center;min-height:50px}}
+.wsearch{margin-bottom:12px}.wsq{width:100%;min-height:50px;font-size:17px;padding:12px 16px;border-radius:12px;border:1px solid rgba(168,120,255,.55);background:rgba(255,255,255,.05);color:#fff;box-sizing:border-box}
+.wsel{min-height:40px;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:#1a1b24;color:#fff;font-size:14px}.wnum{width:90px;border-radius:10px}.row.wrap{flex-wrap:wrap}
+.tblwrap{overflow-x:auto}.wtbl{width:100%;border-collapse:collapse;font-size:14px}.wtbl th,.wtbl td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;white-space:nowrap}.wtbl tbody tr:hover{background:rgba(124,77,255,.12)}
