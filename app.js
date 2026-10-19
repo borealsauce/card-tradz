@@ -41,6 +41,12 @@ function avaColor(h){var x=hash(h)%360;return 'background:linear-gradient(135deg
 function ava(h,size){var u=user(h);var ini=(u.name||h).split(/\s+/).map(function(w){return w[0]}).join('').slice(0,2).toUpperCase();return '<span class="ava" style="'+avaColor(h)+(size?';width:'+size+'px;height:'+size+'px;font-size:'+(size/2.8)+'px':'')+'">'+esc(ini)+'</span>'}
 function stars(r){var f=Math.round(r),s='';for(var i=1;i<=5;i++)s+=i<=f?'★':'☆';return '<span class="stars">'+s+'</span>'}
 
+function mergeReal(){var seen=S.realSeen||S.mine.filter(function(c){return c.real}).map(function(c){return c.id}),ch=0;
+  MY.forEach(function(m,i){var c=S.mine.filter(function(x){return x.id===m.id&&x.real})[0];
+    if(c){['sport','player','set','num','variant','rc','grader','grade','gradeLabel','cert','pop','serial','img','psaVerified','psaImg'].forEach(function(k){if(m[k]!==undefined&&c[k]!==m[k]){c[k]=m[k];ch=1}})}
+    else if(seen.indexOf(m.id)<0){var n=JSON.parse(JSON.stringify(m));n.real=true;n.owner='you';n.mode='none';n.cost=null;n.costDate=null;n.hideCost=true;n.listPrice=null;n.offers=true;n.nfs=false;n.comps=[];n.price=null;n.hue=(i*57)%360;n.listed=TODAY;n.views=0;var at=0;S.mine.forEach(function(x,j){if(x.real)at=j+1});S.mine.splice(at,0,n);ch=1}
+    if(seen.indexOf(m.id)<0)seen.push(m.id)});
+  S.realSeen=seen;if(ch)save()}
 function initState(){
   var mine=MY.map(function(c,i){c=JSON.parse(JSON.stringify(c));c.real=true;c.owner='you';c.mode='none';c.cost=null;c.costDate=null;c.hideCost=true;c.listPrice=null;c.offers=true;c.nfs=false;c.comps=[];c.price=null;c.hue=(i*57)%360;c.listed=TODAY;c.views=0;return c});
   var now=Date.now(),H=3600e3;
@@ -59,7 +65,7 @@ function initState(){
     notifs:[{id:'n1',t:'@graded_gems sent you a trade offer',ts:now-2*H,href:'#/trade/T501',read:false},{id:'n2',t:'Trade T502: both slabs received at hub',ts:now-30*H,href:'#/trade/T502',read:false},{id:'n3',t:'Saved search “Wembanyama PSA 10”: 2 new listings',ts:now-9*H,href:'#/saved',read:true},{id:'n4',t:'Price drop: a card on your wishlist dropped 8%',ts:now-26*H,href:'#/card/L1003',read:true}],
     seq:600};
   var dan=S.trades[2];dan.aCash=Math.round(card(dan.bCards[0]).price*.92);
-  save();
+  S.realSeen=MY.map(function(c){return c.id});save();
 }
 
 /* ---------- slab art (original SVG, no card images) ---------- */
@@ -466,5 +472,5 @@ function scanEdit(t){var i=+t.dataset.i,r=SC.results[i],f=t.dataset.scan,td=t.cl
 document.addEventListener('change',function(ev){var t=ev.target;if(t.id==='scanFiles'||t.id==='scanCam'){scanFiles(t.files);t.value='';return}if(t.dataset&&t.dataset.scan)scanEdit(t);if(t.id==='scanPriv'&&SC)SC.priv=t.checked;if(t.id==='scanCat'&&SC)SC.cat=t.value;if(t.id==='scanDate'&&SC)SC.date=t.value});
 
 window.addEventListener('hashchange',function(){render(false)});
-Promise.all(['data/listings.json','data/my_slabs.json','data/comps.json'].map(function(u){return fetch(u,{cache:'no-cache'}).then(function(r){return r.json()})})).then(function(a){var d=a[0];MY=a[1];COMPS=a[2]&&a[2].cards?a[2]:{cards:{}};D=d;try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){S=null}if(!S||!S.mine||!S.trades)initState();render(false)}).catch(function(e){app.innerHTML='<div class="empty">Could not load demo data.</div>';console.error(e)});
+Promise.all(['data/listings.json','data/my_slabs.json','data/comps.json'].map(function(u){return fetch(u,{cache:'no-cache'}).then(function(r){return r.json()})})).then(function(a){var d=a[0];MY=a[1];COMPS=a[2]&&a[2].cards?a[2]:{cards:{}};D=d;try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){S=null}if(!S||!S.mine||!S.trades)initState();else mergeReal();render(false)}).catch(function(e){app.innerHTML='<div class="empty">Could not load demo data.</div>';console.error(e)});
 })();
