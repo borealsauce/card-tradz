@@ -137,3 +137,4 @@ table.mini{font-size:12px;margin:4px 0}table.mini th,table.mini td{padding:4px 6
 .imp-b{display:flex;flex-wrap:wrap;gap:8px}.demo-tag{font-size:10px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;background:#3a2f12;color:#ffcf5c;border-radius:6px;padding:1px 6px;margin-left:4px}.imp-q select,.imp-q input{min-height:40px}
 @media(max-width:640px){.imp-b .btn{flex:1 1 46%}}
 .imp-q select{flex:1 1 100%;min-width:0}
+.slab.photo img{transition:transform .18s}.slab.photo img.flipping{transform:rotateY(90deg)}.flipbtn{margin-right:6px}

@@ -31,13 +31,16 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "90929295",
-  "img": "assets/slabs/wemby_hoops.webp",
+  "img": "assets/psa/90929295_front_main.webp",
   "psaVerified": true,
   "photos": [
    "assets/photos/wemby_hoops_1.jpg"
   ],
   "costDate": "2024-10-07",
-  "demoCost": 110
+  "demoCost": 110,
+  "imgBack": "assets/psa/90929295_back_main.webp",
+  "psaFront": "assets/psa/90929295_front.jpg",
+  "psaBack": "assets/psa/90929295_back.jpg"
  },
  {
   "id": "R3",
@@ -50,13 +53,16 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "76785557",
-  "img": "assets/slabs/verstappen.webp",
+  "img": "assets/psa/76785557_front_main.webp",
   "psaVerified": false,
   "photos": [
    "assets/photos/verstappen_1.jpg"
   ],
   "costDate": "2024-10-11",
-  "demoCost": 90
+  "demoCost": 90,
+  "imgBack": "assets/psa/76785557_back_main.webp",
+  "psaFront": "assets/psa/76785557_front.jpg",
+  "psaBack": "assets/psa/76785557_back.jpg"
  },
  {
   "id": "R4",
@@ -69,13 +75,16 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "95985438",
-  "img": "assets/slabs/deion.webp",
+  "img": "assets/psa/95985438_front_main.webp",
   "psaVerified": true,
   "photos": [
    "assets/photos/deion_1.jpg"
   ],
   "costDate": "2024-10-12",
-  "demoCost": 40
+  "demoCost": 40,
+  "imgBack": "assets/psa/95985438_back_main.webp",
+  "psaFront": "assets/psa/95985438_front.jpg",
+  "psaBack": "assets/psa/95985438_back.jpg"
  },
  {
   "id": "R5",
@@ -89,13 +98,16 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "88434839",
-  "img": "assets/slabs/wemby_monopoly.webp",
+  "img": "assets/psa/88434839_front_main.webp",
   "psaVerified": false,
   "photos": [
    "assets/photos/wemby_monopoly_1.jpg"
   ],
   "costDate": "2024-10-16",
-  "demoCost": 110
+  "demoCost": 110,
+  "imgBack": "assets/psa/88434839_back_main.webp",
+  "psaFront": "assets/psa/88434839_front.jpg",
+  "psaBack": "assets/psa/88434839_back.jpg"
  },
  {
   "id": "R6",
@@ -129,12 +141,15 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "92212201",
-  "img": "assets/slabs/wemby_winter.webp",
+  "img": "assets/psa/92212201_front_main.webp",
   "photos": [
    "assets/photos/wemby_winter_1.jpg"
   ],
   "costDate": "2024-10-21",
-  "demoCost": 40
+  "demoCost": 40,
+  "imgBack": "assets/psa/92212201_back_main.webp",
+  "psaFront": "assets/psa/92212201_front.jpg",
+  "psaBack": "assets/psa/92212201_back.jpg"
  },
  {
   "grader": "PSA",
@@ -149,12 +164,15 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "92212220",
-  "img": "assets/slabs/wemby_xpect.webp",
+  "img": "assets/psa/92212220_front_main.webp",
   "photos": [
    "assets/photos/wemby_xpect_1.jpg"
   ],
   "costDate": "2024-10-25",
-  "demoCost": 30
+  "demoCost": 30,
+  "imgBack": "assets/psa/92212220_back_main.webp",
+  "psaFront": "assets/psa/92212220_front.jpg",
+  "psaBack": "assets/psa/92212220_back.jpg"
  },
  {
   "grader": "PSA",
@@ -169,12 +187,15 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "92212210",
-  "img": "assets/slabs/wemby_greetings.webp",
+  "img": "assets/psa/92212210_front_main.webp",
   "photos": [
    "assets/photos/wemby_greetings_1.jpg"
   ],
   "costDate": "2024-10-29",
-  "demoCost": 130
+  "demoCost": 130,
+  "imgBack": "assets/psa/92212210_back_main.webp",
+  "psaFront": "assets/psa/92212210_front.jpg",
+  "psaBack": "assets/psa/92212210_back.jpg"
  },
  {
   "grader": "PSA",
@@ -189,12 +210,15 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "92212493",
-  "img": "assets/slabs/wemby_rookies.webp",
+  "img": "assets/psa/92212493_front_main.webp",
   "photos": [
    "assets/photos/wemby_rookies_1.jpg"
   ],
   "costDate": "2024-10-30",
-  "demoCost": 35
+  "demoCost": 35,
+  "imgBack": "assets/psa/92212493_back_main.webp",
+  "psaFront": "assets/psa/92212493_front.jpg",
+  "psaBack": "assets/psa/92212493_back.jpg"
  },
  {
   "grader": "PSA",
@@ -229,11 +253,14 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "80482412",
-  "img": "assets/slabs/rodgers.webp",
+  "img": "assets/psa/80482412_front_main.webp",
   "photos": [
    "assets/photos/rodgers_1.jpg"
   ],
   "costDate": "2024-11-07",
-  "demoCost": 40
+  "demoCost": 40,
+  "imgBack": "assets/psa/80482412_back_main.webp",
+  "psaFront": "assets/psa/80482412_front.jpg",
+  "psaBack": "assets/psa/80482412_back.jpg"
  }
 ]
