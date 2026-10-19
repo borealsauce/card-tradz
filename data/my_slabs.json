@@ -11,13 +11,17 @@
   "gradeLabel": "MINT 9",
   "cert": "48277011",
   "pop": 81,
-  "img": "assets/slabs/messi.webp",
+  "img": "assets/sample/48277011_front_main.webp",
   "psaVerified": true,
   "photos": [
    "assets/photos/messi_1.jpg"
   ],
   "costDate": "2024-10-03",
-  "demoCost": 90
+  "demoCost": 90,
+  "imgBack": "assets/sample/48277011_back_main.webp",
+  "psaFront": "assets/sample/48277011_front.jpg",
+  "psaBack": "assets/sample/48277011_back.jpg",
+  "sampleImg": true
  },
  {
   "id": "R2",
@@ -120,13 +124,17 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "59346594",
-  "img": "assets/slabs/bo_jackson.webp",
+  "img": "assets/sample/59346594_front_main.webp",
   "psaVerified": false,
   "photos": [
    "assets/photos/bo_jackson_1.jpg"
   ],
   "costDate": "2024-10-20",
-  "demoCost": 90
+  "demoCost": 90,
+  "imgBack": "assets/sample/59346594_back_main.webp",
+  "psaFront": "assets/sample/59346594_front.jpg",
+  "psaBack": "assets/sample/59346594_back.jpg",
+  "sampleImg": true
  },
  {
   "grader": "PSA",

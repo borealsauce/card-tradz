@@ -138,3 +138,4 @@ table.mini{font-size:12px;margin:4px 0}table.mini th,table.mini td{padding:4px 6
 @media(max-width:640px){.imp-b .btn{flex:1 1 46%}}
 .imp-q select{flex:1 1 100%;min-width:0}
 .slab.photo img{transition:transform .18s}.slab.photo img.flipping{transform:rotateY(90deg)}.flipbtn{margin-right:6px}
+.slab.photo{position:relative}.samplebadge{position:absolute;left:8px;top:8px;background:rgba(20,18,30,.82);color:#ffcf5c;font-size:11px;font-weight:800;letter-spacing:.03em;padding:3px 8px;border-radius:999px;border:1px solid rgba(255,207,92,.5);pointer-events:none}.samplecap{font-size:12px;color:#8e98ad;text-align:center;margin:6px 4px 0;line-height:1.3}
