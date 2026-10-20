@@ -196,3 +196,8 @@ body.obmode .topbar,body.obmode .tabbar{display:none}
 .rt-foot{padding-right:56px}
 .ofin{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}.ofl{font-size:12px;font-weight:700;color:#7ee2a8}.ofl.off{color:#ff8a94}.oftog-in .oftog{position:relative;right:auto;bottom:auto}
 .pc .ofprice{color:#0b0d12;border-bottom-color:#16a34a}.pc .ofl{color:#15803d}.pc .ofl.off{color:#dc2626}.pc .ofin{flex-wrap:nowrap;gap:6px}
+
+.pc .ofrow{display:flex;align-items:center;gap:8px;margin-top:8px;flex-wrap:nowrap}.pc .ofrow .btn{white-space:nowrap;flex-shrink:0}
+.ofdiv{width:1px;height:22px;background:rgba(0,0,0,.15);flex-shrink:0}.ofgrp{display:inline-flex;align-items:center;gap:6px;flex-shrink:0}
+.pc .ofgrp .ofl{white-space:nowrap}.ofpl{text-align:right;margin-top:6px}.ofpl.off{font-size:11px;color:#9aa1ad}
+@media (max-width:420px){.pc .ofgrp .ofl{font-size:11px}.pc .oftog-in .oftog{width:38px;height:22px}.pc .oftog-in .oftog i{width:16px;height:16px}.pc .oftog-in .oftog.on i{left:19px}}
