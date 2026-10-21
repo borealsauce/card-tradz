@@ -13,7 +13,7 @@ function median(a){if(!a.length)return 0;var s=a.slice().sort(function(x,y){retu
 function fmtDate(iso){var d=new Date(iso+(iso.length===10?'T12:00:00':''));return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}
 function ago(ts){var s=(Date.now()-ts)/1000;if(s<60)return 'just now';if(s<3600)return Math.floor(s/60)+'m ago';if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago'}
 function toast(t){var el=$('#toast');el.textContent=t;el.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(function(){el.classList.remove('show')},2300)}
-function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+function save(){setTimeout(updCart,0);try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
 function uid(p){return p+Date.now().toString(36)+Math.floor(Math.random()*1e4)}
 var GR={PSA:{c:'#d2232a',t:'#fff'},BGS:{c:'#c9b47a',t:'#1a1407'},SGC:{c:'#1b1b1f',t:'#f1f1f1'},CGC:{c:'#1d4fa8',t:'#fff'},CSG:{c:'#0f7a63',t:'#fff'}};
 var STEPS=['Trade agreed','Both sides ship to the Card Tradz hub','Received at hub','Authenticated & certs verified','Shipped out (insured)','Delivered'];
@@ -44,7 +44,7 @@ function stars(r){var f=Math.round(r),s='';for(var i=1;i<=5;i++)s+=i<=f?'★':'�
 function mergeReal(){var ids=MY.map(function(m){return m.id}),gone=S.mine.filter(function(c){return c.real&&ids.indexOf(c.id)<0}).map(function(c){return c.id});if(gone.length){S.mine=S.mine.filter(function(c){return gone.indexOf(c.id)<0});S.saved=S.saved.filter(function(id){return gone.indexOf(id)<0});save()}
  var seen=S.realSeen||S.mine.filter(function(c){return c.real}).map(function(c){return c.id}),ch=0;
   MY.forEach(function(m,i){var c=S.mine.filter(function(x){return x.id===m.id&&x.real})[0];
-    if(c){['sport','player','set','num','variant','rc','grader','grade','gradeLabel','cert','pop','serial','img','imgBack','psaFront','psaBack','psaVerified','psaImg','sampleImg','placeholderImg','detailsNeeded','ebayItem','ebayUrl','ebayTitle','costNote'].forEach(function(k){if(m[k]!==undefined&&c[k]!==m[k]){c[k]=m[k];ch=1}})}
+    if(c){['sport','player','set','num','variant','rc','grader','grade','gradeLabel','cert','pop','serial','img','imgBack','psaFront','psaBack','psaVerified','psaImg','sampleImg','placeholderImg','detailsNeeded','ebayItem','ebayUrl','ebayTitle','costNote','qty','certs'].forEach(function(k){if(m[k]!==undefined&&c[k]!==m[k]){c[k]=m[k];ch=1}})}
     else if(seen.indexOf(m.id)<0){var n=JSON.parse(JSON.stringify(m));n.real=true;n.owner='you';n.mode='none';n.cost=null;n.costDate=null;n.hideCost=true;n.listPrice=null;n.offers=true;n.nfs=false;n.comps=[];n.price=null;n.hue=(i*57)%360;n.listed=TODAY;n.views=0;var at=0;S.mine.forEach(function(x,j){if(x.real)at=j+1});S.mine.splice(at,0,n);ch=1}
     if(seen.indexOf(m.id)<0)seen.push(m.id)});
   S.realSeen=seen;if(ch)save()}
@@ -349,14 +349,14 @@ function cleanNum(c){return String(c.num||'').replace(/\s*Rookie$/,'')}
 function gradeLine(c){return (c.grader||c.grade)?(c.grader+' '+c.grade).trim():'Grade needed'}
 function titleLine(c){return esc(c.set+((c.variant&&c.variant!=='Base')?' '+c.variant:''))}
 function priceFor(c){if(c.owner==='you')return c.nfs?null:(c.listPrice||null);return (c.mode==='sale'||c.mode==='both')?c.price:null}
-function btnLabel(c){if(c.owner==='you'){if(c.nfs)return null;if(c.listPrice)return 'BUY NOW';return c.offers?'BUY / OFFER':null}return {sale:'BUY NOW',both:'BUY / OFFER',trade:'TRADE / OFFER'}[c.mode]||null}
+function btnLabel(c){if(c.owner==='you'){if(c.nfs)return null;return (c.listPrice||c.offers)?'BUY / OFFER':null}return c.mode&&c.mode!=='none'?'BUY / OFFER':null}
 function rtile(c,o){o=o||{};var saved=S.saved.indexOf(c.id)>=0,pr=priceFor(c),bl=o.owner?null:btnLabel(c),v=value(c);
   var big=pr!=null?money(pr):(c.real?compFig(c):(v!=null?money(v):'<span class="pend">Value pending</span>'));
   var sub=pr!=null&&v!=null&&c.owner==='you'?'<div class="sm mut2">Market '+money(v)+'</div>':(pr==null&&v!=null&&!c.real?'<div class="sm mut2">Market value</div>':'');
   return '<div class="rtile" style="animation-delay:'+Math.min(o.i||0,20)*25+'ms">'+(c.owner==='you'?ofTog(c):'')+'<a class="rt-img" href="#/card/'+c.id+(o.preview?'?as=buyer':'')+'">'+slab(c,{k:o.k||'r'})+slabBadges(c)+sampleCap(c)+rpBtn(c)+'</a>'+
    (c.owner!=='you'?'<button class="rt-heart'+(saved?' on':'')+'" data-act="save" data-id="'+c.id+'" aria-label="Save to wishlist"><svg viewBox="0 0 24 24"><path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z"/></svg></button>':'')+
    '<a class="rt-info" href="#/card/'+c.id+(o.preview?'?as=buyer':'')+'"><div class="rt-t">'+titleLine(c)+'</div><div class="rt-t">'+esc(c.player)+' '+esc(cleanNum(c))+'</div><div class="rt-g">'+gradeLine(c)+(c.demo?' <span class="demo-chip">demo</span>':'')+'</div>'+(c.owner!=='you'&&!o.nofv?'<div style="margin-top:4px">'+fvBadge(c)+'</div>':'')+'</a>'+
-   '<div class="rt-foot"><div><div class="rt-price">'+big+'</div>'+sub+'</div>'+(bl?'<button class="rt-btn" data-act="buyOffer" data-id="'+c.id+'"'+(o.preview?' data-preview="1"':'')+'>'+bl+'</button>':(o.owner?'':'<span class="sm mut2">'+(c.owner==='you'&&c.nfs?'Not for sale':'')+'</span>'))+'</div>'+(o.extra||'')+'</div>'}
+   '<div class="rt-foot"><div><div class="rt-price">'+big+'</div>'+sub+'</div>'+(bl?'<button class="rt-btn" data-act="buyOffer" data-id="'+c.id+'"'+(o.preview?' data-preview="1"':'')+'>'+bl+'</button>'+cartBtn(c):(o.owner?'':'<span class="sm mut2">'+(c.owner==='you'&&c.nfs?'Not for sale':'')+'</span>'))+'</div>'+(o.extra||'')+'</div>'}
 function tile(c,o){return rtile(c,o)}
 function gridHtml(L){return L.length?L.map(function(c,i){return tile(c,{i:i})}).join(''):'<div class="empty">No slabs match. Try widening filters — or save this search to get alerted.</div>'}
 function altBlock(c,full){var s=altSales(c),v=value(c),cc=COMPS.cards[c.cert]||{},url=cc.url||cc.altUrl,asOf=altAsOf(c),srcs=s.map(function(x){return (x.source||'Alt').replace(/ \(eBay\)/,'')}).filter(function(x,i,a){return a.indexOf(x)===i}).join(' + ');
@@ -365,7 +365,7 @@ function altBlock(c,full){var s=altSales(c),v=value(c),cc=COMPS.cards[c.cert]||{
    '<div class="sm mut2">'+(asOf?'As of '+fmtDate(asOf):'Not yet looked up')+' · source: '+esc(srcs||'—')+(url&&full?' · <a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc((cc.urlLabel||'View source').toLowerCase())+' ↗</a>':'')+'</div></div>'}
 function pcard(c,i){var v=value(c),g=(c.cost!=null&&v!=null)?v-c.cost:null;
   return '<div class="rtile pc" style="animation-delay:'+i*40+'ms"><a class="rt-img" href="#/card/'+c.id+'">'+slab(c,{k:'pc'})+slabBadges(c)+'</a>'+
-  '<div class="rt-info"><div class="rt-t">'+titleLine(c)+'</div><div class="rt-t">'+esc(c.player)+' '+esc(cleanNum(c))+'</div><div class="rt-g">'+esc(c.gradeLabel?c.grader+' '+c.gradeLabel:gradeLine(c))+'</div>'+
+  '<div class="rt-info"><div class="rt-t">'+titleLine(c)+qtyBadge(c)+'</div><div class="rt-t">'+esc(c.player)+' '+esc(cleanNum(c))+'</div><div class="rt-g">'+esc(c.gradeLabel?c.grader+' '+c.gradeLabel:gradeLine(c))+'</div>'+
   '<div class="sm mut2" style="margin-top:3px">'+(c.cert?'Cert <a href="https://www.psacard.com/cert/'+esc(c.cert)+'" target="_blank" rel="noopener">'+esc(c.cert)+' ↗</a> · ':'')+ebayLine(c)+(c.detailsNeeded?'<span class="warn">Details needed: grade/cert/full title</span>':c.psaVerified?'<span class="ok">PSA verified ✓</span>':(c.real?'<span class="warn">Verify on PSA</span>':'Demo card'))+'</div></div>'+
   '<div class="pc-bottom">'+(c.real?altBlock(c,true):'<div class="mkt"><div class="row"><span class="mkt-l">Market (comps median)</span><span class="sp"></span><b class="mkt-v">'+vtxt(c)+'</b></div></div>')+
   '<label class="paid"><span>Paid $</span><input type="number" inputmode="decimal" min="0" step="0.01" data-paid="'+c.id+'" value="'+(c.cost!=null?c.cost:'')+'" placeholder="Enter what you paid" aria-label="Paid for '+esc(c.player)+'"><span class="lock" title="Private — only you see this">🔒 Private</span></label>'+paidNote(c)+
@@ -397,7 +397,7 @@ function sellSheet(c){modal('<h2 style="margin-top:0">Sell settings</h2><p class
 function buySheet(c,preview){var pr=priceFor(c),v=value(c),open=c.owner==='you'?c.offers:true;
   modal('<h2 style="margin-top:0">'+(pr?'Buy or make an offer':'Make an offer')+(preview?' <span class="pill y">Preview</span>':'')+'</h2>'+(preview?'<p class="note">You’re previewing your own card as a visitor. Nothing will be sent.</p>':'')+
   '<div class="row" style="align-items:flex-start"><div style="width:96px">'+slab(c,{k:'bo'})+'</div><div class="sp"><b>'+esc(c.player)+' '+esc(cleanNum(c))+'</b><div class="sm mut">'+titleLine(c)+'</div><div class="sm"><b>'+gradeLine(c)+'</b> · cert '+esc(c.cert)+'</div><div class="sm" style="margin-top:4px">Market '+(v!=null?money(v,1):'pending')+(pr?' · Buy now <b>'+money(pr)+'</b>':'')+'</div></div></div>'+
-  (pr?'<button class="btn pri block" style="margin-top:12px" data-act="boBuy" data-id="'+c.id+'"'+(preview?' data-preview="1"':'')+'>Buy now for '+money(pr)+'</button>':'')+
+  qtyStep(c)+'<button class="btn ghost block" style="margin-top:12px" data-act="cartAdd" data-id="'+c.id+'">'+(inCart(c.id)?'✓ In offer cart — view cart':'＋ Add to multi-card offer cart')+'</button>'+(pr?'<button class="btn pri block" style="margin-top:12px" data-act="boBuy" data-id="'+c.id+'"'+(preview?' data-preview="1"':'')+'>Buy now for '+money(pr)+'</button>':'')+
   (open?'<h3 style="margin-top:16px">Offer</h3><label class="f" for="boAmt">Cash offer</label><input id="boAmt" type="number" inputmode="numeric" value="'+Math.round((pr||v||100)*.92)+'"><label class="f">Add cards from your showcase (optional)</label><div class="pick">'+(preview?D.listings.slice(0,4):S.mine.filter(function(m){return m.id!==c.id})).map(function(m){return '<div class="p" data-act="boPick" data-id="'+m.id+'">'+slab(m,{k:'bp'})+'<div class="pv">'+vtxt(m)+'</div></div>'}).join('')+'</div><button class="btn blue block" style="margin-top:12px" data-act="boSend" data-id="'+c.id+'"'+(preview?' data-preview="1"':'')+'>Send offer</button>':'')+
   '<p class="note">Demo — no payment is taken. Trades and purchases run through the insured hub.</p>')}
 A.buyOffer=function(d,e,ev){ev.preventDefault();ev.stopPropagation();buySheet(card(d.id),!!d.preview||card(d.id).owner==='you')};
@@ -476,7 +476,7 @@ function scanEdit(t){var i=+t.dataset.i,r=SC.results[i],f=t.dataset.scan,td=t.cl
 document.addEventListener('change',function(ev){var t=ev.target;if(t.id==='scanFiles'||t.id==='scanCam'){scanFiles(t.files);t.value='';return}if(t.dataset&&t.dataset.scan)scanEdit(t);if(t.id==='scanPriv'&&SC)SC.priv=t.checked;if(t.id==='scanCat'&&SC)SC.cat=t.value;if(t.id==='scanDate'&&SC)SC.date=t.value});
 
 window.addEventListener('hashchange',function(){render(false)});
-Promise.all(['data/listings.json','data/my_slabs.json','data/comps.json'].map(function(u){return fetch(u,{cache:'no-cache'}).then(function(r){return r.json()})})).then(function(a){var d=a[0];MY=a[1];COMPS=a[2]&&a[2].cards?a[2]:{cards:{}};D=d;try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){S=null}if(!S||!S.mine||!S.trades)initState();else mergeReal();applyDemoCosts();if(S.onb&&S.onb.mSport&&S.onb.mSport!=='All')mstate.sport=S.onb.mSport;render(false)}).catch(function(e){app.innerHTML='<div class="empty">Could not load demo data.</div>';console.error(e)});
+Promise.all(['data/listings.json','data/my_slabs.json','data/comps.json'].map(function(u){return fetch(u,{cache:'no-cache'}).then(function(r){return r.json()})})).then(function(a){var d=a[0];MY=groupSlabs(a[1]);COMPS=a[2]&&a[2].cards?a[2]:{cards:{}};D=d;try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){S=null}if(!S||!S.mine||!S.trades)initState();else mergeReal();applyDemoCosts();if(S.onb&&S.onb.mSport&&S.onb.mSport!=='All')mstate.sport=S.onb.mSport;render(false)}).catch(function(e){app.innerHTML='<div class="empty">Could not load demo data.</div>';console.error(e)});
 /* ---------- Real photos: gallery, loupe, zoom ---------- */
 function rpList(c){if(!c)return[];var m=(MY||[]).find(function(x){return x.cert===c.cert});return ((m&&m.photos)||[]).concat(c.photos||[]).filter(function(u,i,a){return a.indexOf(u)===i})}
 function rpBtn(c,big){var n=rpList(c).length;if(!n)return'';return '<button class="rpbtn'+(big?' big':'')+'" data-act="rphotos" data-id="'+c.id+'" aria-label="Real photos ('+n+')">📷 Real photos <span class="rpn">'+n+'</span></button>'}
@@ -589,7 +589,7 @@ function vBuyer(id){var c=card(id);if(!c)return '<div class="empty">Listing not 
   return '<div class="bpage fadein"><div class="bwrap"><a class="bclose" href="'+close+'" aria-label="Close">✕</a>'+
   '<div class="bgrid"><div class="bleft"><div class="bcar" data-n="'+imgs.length+'">'+(imgs.length?imgs.map(function(m,i){return '<div class="bslide" data-i="'+i+'"><img src="'+esc(m.s)+'" data-hi="'+esc(m.hi)+'" alt="'+esc(c.player+' '+m.t)+'" draggable="false"><span class="btag">'+m.t+'</span></div>'}).join(''):'<div class="bslide" data-i="0">'+slab(c,{k:'b'})+'</div>')+'</div>'+
    sampleCap(c)+'<div class="bdots">'+(imgs.length>1?imgs.map(function(m,i){return '<button data-act="bcar" data-to="'+i+'" aria-label="Image '+(i+1)+'"></button>'}).join(''):'')+'</div>'+(imgs.length>1?'<div class="barr"><button data-act="bcar" data-d="-1" aria-label="Previous">‹</button><button data-act="bcar" data-d="1" aria-label="Next">›</button></div>':'')+'</div>'+
-  '<div class="bright"><h1 class="btitle">'+esc(bTitle(c))+'</h1><div class="bprice"><b>'+big+'</b>'+(v!=null?'<span class="bcomps">'+compFig(c).replace('class="cfig"','class="cfig bvc"').replace(/>\$[\d,.]+</,'>View Comps ▾<')+'</span>':'')+(pr!=null?'<button class="btn bbuy" data-act="buyOffer" data-id="'+c.id+'"'+(mine?' data-preview="1"':'')+'>BUY NOW</button>':'')+'</div>'+(pr!=null&&v!=null?'<div class="sm mut">Current value '+money(v)+' · comps avg</div>':(pr==null?'<div class="sm mut">Current value · comps avg</div>':''))+
+  '<div class="bright"><h1 class="btitle">'+esc(bTitle(c))+'</h1><div class="bprice"><b>'+big+'</b>'+(v!=null?'<span class="bcomps">'+compFig(c).replace('class="cfig"','class="cfig bvc"').replace(/>\$[\d,.]+</,'>View Comps ▾<')+'</span>':'')+(pr!=null?'<button class="btn bbuy" data-act="buyOffer" data-id="'+c.id+'"'+(mine?' data-preview="1"':'')+'>BUY / OFFER</button>':'')+'</div>'+(pr!=null&&v!=null?'<div class="sm mut">Current value '+money(v)+' · comps avg</div>':(pr==null?'<div class="sm mut">Current value · comps avg</div>':''))+
    '<div class="battrs">'+(par&&par!=='Base'?'<div><span>Parallel</span><b>'+esc(par)+'</b></div>':'')+(pr2?'<div><span>Print Run</span><b>/'+pr2+'</b></div>':'')+'<div><span>Grade</span><b>'+esc(gradeLine(c))+'</b></div>'+(c.cert?'<div><span>Cert #</span><b>'+esc(c.cert)+'</b></div>':'')+'</div>'+
    '<div class="bseller"><div class="bs-top"><a class="bs-user" href="#/u/'+esc(u.handle)+'">'+ava(u.handle,30)+'<b>'+esc(mine?'you (preview)':'@'+u.handle)+'</b></a><span class="sp"></span><a class="btn sm" href="'+(mine?'#/portfolio?pub=1':'#/u/'+esc(u.handle))+'">Collection</a><a class="btn sm" href="#/messages/'+esc(c.owner)+'">Message</a><button class="btn sm bdots3" data-act="bmore" aria-label="More">⋯</button></div>'+
    '<div class="bs-th"><div class="sm mut">Transaction History</div><div class="row" style="gap:22px"><div><b>'+(u.trades||0)+'</b><div class="sm mut">Total Trades</div></div><div><b>'+ok+'</b><div class="sm mut">Successful</div></div></div></div>'+
@@ -665,8 +665,50 @@ A.ofEdit=function(d,e,ev){if(ev){ev.preventDefault();ev.stopPropagation()}var c=
 A.ofSave=function(d){var c=card(d.id),v=value(c),a=parseFloat($('#ofA').value);if(isNaN(a)||a<=0){toast('Enter a price');return}if(v!=null&&a<v){toast('Asking must be at least the comp '+money(v));return}c.listPrice=Math.round(a*100)/100;c.price=c.listPrice;c.nfs=false;c.offers=true;c.mode='both';save();closeModal();toast('Asking price set');render(true)};
 A.ofReset=function(d){var c=card(d.id);c.listPrice=null;c.price=null;c.mode=c.nfs?'none':'trade';save();closeModal();toast('Reset to comp price');render(true)};
 
+/* ===== Multi-card offer cart (Veriswap-style bundle) ===== */
+function cartL(){if(!S.cart)S.cart=[];S.cart=S.cart.filter(function(id){return card(id)});return S.cart}
+function inCart(id){return cartL().indexOf(id)>=0}
+function cartBtn(c){var on=inCart(c.id);return '<button class="rt-cart'+(on?' on':'')+'" data-act="cartTog" data-id="'+c.id+'" title="'+(on?'Remove from offer cart':'Add to offer cart')+'" aria-label="'+(on?'Remove from offer cart':'Add to offer cart')+'">'+(on?'✓':'＋')+'</button>'}
+function askOf(c){var p=priceFor(c);return p!=null?p:(value(c)!=null?Math.ceil(value(c)):null)}
+function updCart(){if(!S)return;var el=document.getElementById('cartFab');if(!el){el=document.createElement('button');el.id='cartFab';el.className='cartfab';el.setAttribute('data-act','cartOpen');document.body.appendChild(el)}var n=cartL().length;el.hidden=!n;el.innerHTML='🛒 Offer cart <span class="cartn">'+n+'</span>'}
+A.cartTog=function(d,e,ev){if(ev){ev.preventDefault();ev.stopPropagation()}var L=cartL(),i=L.indexOf(d.id);if(i>=0){L.splice(i,1);toast('Removed from offer cart')}else{L.push(d.id);toast('Added to offer cart ('+L.length+')')}save();render(true)};
+A.cartAdd=function(d){var q=$('#boQty');if(!inCart(d.id))cartL().push(d.id);if(q)setCQ(d.id,+q.value);save();A.cartOpen()};
+function cartTotals(){var L=cartL().map(card),ask=0,all=true;L.forEach(function(c){var a=priceFor(c);if(a==null)all=false;ask+=(askOf(c)||0)*cq(c)});return {L:L,ask:ask,all:all}}
+A.cartOpen=function(){var t=cartTotals();if(!t.L.length){closeModal();toast('Offer cart is empty');return}
+ modal('<h2 style="margin-top:0">Offer cart <span class="pill">'+t.L.length+' card'+(t.L.length>1?'s':'')+'</span></h2><p class="sub">Bundle cards into one combined offer, or buy them all at asking.</p><div class="cartlist">'+t.L.map(function(c){var a=askOf(c);return '<div class="cartrow"><div class="cartimg">'+slab(c,{k:'ct'})+'</div><div class="sp" style="min-width:0"><b class="ell">'+esc(c.player)+'</b><div class="sm mut ell">'+esc(gradeLine(c))+' · @'+esc(c.owner)+'</div><div class="sm">Asking <b>'+(a!=null?money(a):'—')+'</b></div></div><input class="cartamt" type="number" inputmode="decimal" min="0" data-cid="'+c.id+'" value="'+Math.round((a||0)*.92)+'" aria-label="Offer for '+esc(c.player)+'"><button class="x2" data-act="cartRm" data-id="'+c.id+'" aria-label="Remove">✕</button></div>'}).join('')+'</div>'+
+ '<div class="carttot"><div><span class="sm mut">Total asking</span><b>'+money(t.ask)+'</b></div><div><span class="sm mut">Your offer</span><input id="cartTot" type="number" inputmode="decimal" min="0" value="'+Math.round(t.ask*.92)+'"></div></div><div class="sm mut" id="cartPct" style="margin:6px 0 12px"></div>'+
+ '<button class="btn blue block" data-act="cartSend">Send combined offer</button>'+(t.all?'<button class="btn pri block" style="margin-top:8px" data-act="cartBuy">Buy all at asking · '+money(t.ask)+'</button>':'<p class="note">Some cards have no asking price — offer only.</p>')+'<button class="btn ghost block" style="margin-top:8px" data-act="cartClear">Clear cart</button><p class="note">Edit per-card offers or the total — they stay in sync. One offer is sent per seller.</p>');
+ var sync=function(){var s=0;document.querySelectorAll('.cartamt').forEach(function(x){s+=+x.value||0});$('#cartTot').value=Math.round(s);pc()},pc=function(){var v=+$('#cartTot').value||0;$('#cartPct').textContent=t.ask?Math.round(v/t.ask*100)+'% of total asking':''};
+ document.querySelectorAll('.cartamt').forEach(function(x){x.oninput=sync});
+ $('#cartTot').oninput=function(){var v=+this.value||0,ins=document.querySelectorAll('.cartamt');ins.forEach(function(x){var cc=card(x.dataset.cid),a=(askOf(cc)||0)*cq(cc);x.value=Math.round(t.ask?v*a/t.ask:v/ins.length)});pc()};sync()};
+A.cartRm=function(d){var L=cartL(),i=L.indexOf(d.id);if(i>=0)L.splice(i,1);save();render(true);A.cartOpen()};
+A.cartClear=function(){S.cart=[];save();closeModal();render(true);toast('Offer cart cleared')};
+A.cartSend=function(){var by={};document.querySelectorAll('.cartamt').forEach(function(x){var c=card(x.dataset.cid);(by[c.owner]=by[c.owner]||[]).push({id:c.id,amt:+x.value||0,q:cq(c)})});var tot=+$('#cartTot').value||0;if(!tot){toast('Enter an offer');return}var first=null,n=0;
+ Object.keys(by).forEach(function(o){var it=by[o],amt=it.reduce(function(s,x){return s+x.amt},0);if(o==='you'){n++;return}var t={id:newTradeId(),a:'you',b:o,aCards:[],bCards:it.map(function(x){return x.id}),aCash:amt,bCash:0,status:'pending',turn:o,step:0,created:Date.now(),events:[{ts:Date.now(),t:'Bundle offer of '+money(amt)+' for '+it.reduce(function(s,x){return s+x.q},0)+' card(s) sent'}],qty:it.reduce(function(o,x){o[x.id]=x.q;return o},{}),kind:'offer'};S.trades.push(t);respond(t.id);if(!first)first=t});
+ S.cart=[];S.cartQ={};save();closeModal();if(first){toast('Combined offer sent');location.hash='#/trade/'+first.id}else{toast(n?'Preview only — your own cards':'Offer sent');render(true)}};
+A.cartBuy=function(){var t=cartTotals();S.cart=[];save();closeModal();render(true);toast('Demo checkout — '+t.L.length+' cards for '+money(t.ask)+' (no payment taken)')};
+setTimeout(updCart,0);
+
+/* ===== Cert dedupe + quantity grouping ===== */
+function slabKey(m){return ['player','year','set','num','variant','grader','grade','gradeLabel'].map(function(k){return String(m[k]==null?'':m[k]).trim().toLowerCase()}).join('|')}
+var DEDUPE={in:0,dropped:0,merged:[]};
+function groupSlabs(arr){var seenC={},out=[],byK={};DEDUPE={in:arr.length,dropped:0,merged:[]};
+ arr.forEach(function(m){var ce=String(m.cert||'').trim();if(ce&&seenC[ce]){DEDUPE.dropped++;return}if(ce)seenC[ce]=1;
+  var k=slabKey(m),g=byK[k];if(g&&m.player){g.qty++;if(ce)g.certs.push(ce);(g.mergedIds=g.mergedIds||[]).push(m.id);return}
+  m=JSON.parse(JSON.stringify(m));m.qty=1;m.certs=ce?[ce]:[];byK[k]=m;out.push(m)});
+ out.forEach(function(m){if(m.qty>1)DEDUPE.merged.push({player:m.player,qty:m.qty,certs:m.certs})});return out}
+function maxQ(c){return Math.max(1,c.qty||1)}
+function cq(c){var q=(S.cartQ||{})[c.id]||1;return Math.min(maxQ(c),Math.max(1,q))}
+function setCQ(id,q){S.cartQ=S.cartQ||{};S.cartQ[id]=Math.min(maxQ(card(id)),Math.max(1,q||1))}
+function qtyBadge(c){return maxQ(c)>1?' <span class="qtyb" title="Certs: '+esc((c.certs||[]).join(', '))+'">×'+maxQ(c)+'</span>':''}
+function qtyStep(c){if(maxQ(c)<2)return '';return '<div class="row" style="margin-top:12px;gap:8px"><b>Quantity</b><span class="qst"><button data-act="boQ" data-v="-1">−</button><input id="boQty" type="number" min="1" max="'+maxQ(c)+'" value="'+cq(c)+'"><button data-act="boQ" data-v="1">＋</button></span><span class="sm mut">of '+maxQ(c)+' available</span></div><div class="sm mut2" style="margin-top:4px">Certs: '+(c.certs||[]).map(function(x){return '<a href="https://www.psacard.com/cert/'+esc(x)+'" target="_blank" rel="noopener">'+esc(x)+'</a>'}).join(', ')+'</div>'}
+A.boQ=function(d){var i=$('#boQty');i.value=Math.min(+i.max,Math.max(1,(+i.value||1)+(+d.v)))};
+A.cqUp=function(d){setCQ(d.id,cq(card(d.id))+1);save();A.cartOpen()};
+A.cqDn=function(d){setCQ(d.id,cq(card(d.id))-1);save();A.cartOpen()};
+
 })();
 
 window.wsF=function(){var g=function(i){var e=document.getElementById(i);return e?e.value:''};var q=g('wsQ').toLowerCase().trim().split(/\s+/).filter(Boolean),cat=g('wsCat'),gr=g('wsGr'),gd=g('wsGd'),mn=parseFloat(g('wsMin')),mx=parseFloat(g('wsMax')),n=0,rows=document.querySelectorAll('.wrow');
 rows.forEach(function(r){var p=+r.dataset.p,ok=q.every(function(w){return r.dataset.s.indexOf(w.replace(/^#/,''))>=0})&&(cat==='All'||r.dataset.cat===cat)&&(gr==='All graders'||r.dataset.gr===gr)&&(gd==='Any grade'||r.dataset.gd===gd)&&(isNaN(mn)||p>=mn)&&(isNaN(mx)||p<=mx);r.style.display=ok?'':'none';if(ok)n++});
 var e=document.getElementById('wsN');if(e)e.textContent=n+' of '+rows.length;e=document.getElementById('wsNone');if(e)e.style.display=n?'none':''};
+

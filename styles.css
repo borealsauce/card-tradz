@@ -207,3 +207,12 @@ body.obmode .topbar,body.obmode .tabbar{display:none}
 .pc .ofpl .ofprice{font-size:28px;line-height:1.1;padding:0 2px 1px;white-space:nowrap}
 .pc .ofpl .oftag{font-size:20px;border-radius:10px;padding:2px 10px;margin-left:4px;vertical-align:middle}
 @media (max-width:420px){.pc .ofpl .ofprice{font-size:24px}.pc .ofpl .oftag{font-size:16px;padding:2px 8px}}
+/* Offer cart */
+.rt-foot{position:relative}.rt-cart{margin-left:6px;width:32px;height:32px;flex-shrink:0;border-radius:50%;border:1px solid #7c4dff;background:transparent;color:#7c4dff;font-weight:800;font-size:16px;cursor:pointer;line-height:1}.rt-cart.on{background:#7c4dff;color:#fff}
+.cartfab{position:fixed;right:16px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:50;background:#7c4dff;color:#fff;border:0;border-radius:999px;padding:12px 18px;font-weight:800;font-size:15px;box-shadow:0 6px 20px rgba(0,0,0,.35);cursor:pointer}.cartfab[hidden]{display:none}.cartn{background:#fff;color:#7c4dff;border-radius:999px;padding:1px 8px;margin-left:6px}
+.cartlist{display:flex;flex-direction:column;gap:10px;max-height:46vh;overflow:auto}.cartrow{display:flex;align-items:center;gap:10px}.cartimg{width:46px;flex-shrink:0}.ell{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cartamt{width:84px!important;flex-shrink:0;margin:0!important}.x2{background:none;border:0;color:#9aa1ad;cursor:pointer;font-size:14px;flex-shrink:0}
+.carttot{display:flex;gap:12px;justify-content:space-between;align-items:flex-end;margin-top:14px;padding-top:12px;border-top:1px solid rgba(127,127,127,.25)}.carttot>div{display:flex;flex-direction:column;gap:4px}.carttot b{font-size:22px}#cartTot{width:120px;margin:0}
+.qtyb{display:inline-block;background:#7c4dff;color:#fff;border-radius:6px;padding:0 6px;font-size:11px;font-weight:800;margin-left:4px;vertical-align:middle}
+.qst{display:inline-flex;align-items:center;gap:4px}.qst button{width:26px;height:26px;border-radius:50%;border:1px solid #7c4dff;background:transparent;color:#7c4dff;font-weight:800;cursor:pointer;padding:0}.qst input{width:48px!important;margin:0!important;text-align:center}
+.rt-foot .rt-cart{position:absolute;right:10px;top:-42px;margin:0;background:rgba(255,255,255,.92);z-index:3;box-shadow:0 2px 8px rgba(0,0,0,.25)}.rt-foot .rt-cart.on{background:#7c4dff}
