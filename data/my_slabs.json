@@ -5,7 +5,7 @@
   "player": "Lionel Messi",
   "set": "2018 Topps Chrome UEFA Champions League",
   "num": "#1",
-  "variant": "Running \u2013 Refractor",
+  "variant": "Running – Refractor",
   "grader": "PSA",
   "grade": "9",
   "gradeLabel": "MINT 9",
@@ -55,7 +55,7 @@
   "tradeCats": [
    "Basketball",
    "Football",
-   "Pok\u00e9mon"
+   "Pokémon"
   ]
  },
  {
@@ -140,7 +140,7 @@
   "tradeCats": [
    "Basketball",
    "Football",
-   "Pok\u00e9mon"
+   "Pokémon"
   ]
  },
  {
@@ -197,7 +197,7 @@
   "tradeCats": [
    "Basketball",
    "Football",
-   "Pok\u00e9mon"
+   "Pokémon"
   ]
  },
  {
@@ -225,7 +225,7 @@
   "tradeCats": [
    "Basketball",
    "Football",
-   "Pok\u00e9mon"
+   "Pokémon"
   ]
  },
  {
@@ -253,7 +253,7 @@
   "tradeCats": [
    "Basketball",
    "Football",
-   "Pok\u00e9mon"
+   "Pokémon"
   ]
  },
  {
@@ -281,7 +281,7 @@
   "tradeCats": [
    "Basketball",
    "Football",
-   "Pok\u00e9mon"
+   "Pokémon"
   ]
  },
  {
@@ -307,11 +307,11 @@
   "ebayDate": "2023-09-15",
   "ebayItem": "155761833887",
   "ebayUrl": "https://www.ebay.com/itm/155761833887",
-  "costNote": "From eBay \u00b7 bid only \u00b7 match unconfirmed",
+  "costNote": "From eBay · bid only · match unconfirmed",
   "tradeCats": [
    "Basketball",
    "Football",
-   "Pok\u00e9mon"
+   "Pokémon"
   ]
  },
  {
@@ -340,6 +340,483 @@
    "Football",
    "Baseball",
    "Basketball"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R13",
+  "sport": "Basketball",
+  "player": "Ja Morant",
+  "set": "2019 Panini Chronicles",
+  "num": "#165",
+  "variant": "Base",
+  "grade": "10",
+  "gradeLabel": "GEM MT 10",
+  "cert": "75415093",
+  "img": "assets/photos/75415093_front.jpg",
+  "imgBack": "assets/photos/75415093_back.jpg",
+  "photos": [
+   "assets/photos/75415093_front.jpg",
+   "assets/photos/75415093_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R14",
+  "sport": "Basketball",
+  "player": "Ja Morant",
+  "set": "2019 Panini Chronicles",
+  "num": "#165",
+  "variant": "Base",
+  "grade": "10",
+  "gradeLabel": "GEM MT 10",
+  "cert": "66504705",
+  "img": "assets/photos/66504705_front.jpg",
+  "imgBack": "assets/photos/66504705_back.jpg",
+  "photos": [
+   "assets/photos/66504705_front.jpg",
+   "assets/photos/66504705_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R15",
+  "sport": "Basketball",
+  "player": "Ja Morant",
+  "set": "2019 Panini Chronicles",
+  "num": "#165",
+  "variant": "Pink",
+  "grade": "10",
+  "gradeLabel": "GEM MT 10",
+  "cert": "60645909",
+  "img": "assets/photos/60645909_front.jpg",
+  "imgBack": "assets/photos/60645909_back.jpg",
+  "photos": [
+   "assets/photos/60645909_front.jpg",
+   "assets/photos/60645909_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R16",
+  "sport": "Basketball",
+  "player": "Victor Wembanyama",
+  "set": "2023 Panini NBA Hoops",
+  "num": "#26",
+  "variant": "Arriving Now – Winter",
+  "grade": "10",
+  "gradeLabel": "GEM MT 10",
+  "cert": "92212212",
+  "img": "assets/photos/92212212_front.jpg",
+  "imgBack": "assets/photos/92212212_back.jpg",
+  "photos": [
+   "assets/photos/92212212_front.jpg",
+   "assets/photos/92212212_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R17",
+  "sport": "Basketball",
+  "player": "Victor Wembanyama",
+  "set": "2023 Panini Prizm Draft Picks",
+  "num": "#1",
+  "variant": "Prizm Break",
+  "grade": "10",
+  "gradeLabel": "GEM MT 10",
+  "cert": "90712038",
+  "img": "assets/photos/90712038_front.jpg",
+  "imgBack": "assets/photos/90712038_back.jpg",
+  "photos": [
+   "assets/photos/90712038_front.jpg",
+   "assets/photos/90712038_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R18",
+  "sport": "Basketball",
+  "player": "Ja Morant",
+  "set": "2019 Panini Prizm",
+  "num": "#12",
+  "variant": "Instant Impact",
+  "grade": "10",
+  "gradeLabel": "GEM MT 10",
+  "cert": "56466129",
+  "img": "assets/photos/56466129_front.jpg",
+  "imgBack": "assets/photos/56466129_back.jpg",
+  "photos": [
+   "assets/photos/56466129_front.jpg",
+   "assets/photos/56466129_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R19",
+  "sport": "Basketball",
+  "player": "Jaylen Brown",
+  "set": "2016 Panini Prizm",
+  "num": "#45",
+  "variant": "Mosaic",
+  "grade": "9",
+  "gradeLabel": "MINT 9",
+  "cert": "46763367",
+  "img": "assets/photos/46763367_front.jpg",
+  "imgBack": "assets/photos/46763367_back.jpg",
+  "photos": [
+   "assets/photos/46763367_front.jpg",
+   "assets/photos/46763367_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R20",
+  "sport": "Basketball",
+  "player": "Ja Morant",
+  "set": "2019 Panini Hoops",
+  "num": "#259",
+  "variant": "Base",
+  "grade": "10",
+  "gradeLabel": "GEM MT 10",
+  "cert": "47262056",
+  "img": "assets/photos/47262056_front.jpg",
+  "imgBack": "assets/photos/47262056_back.jpg",
+  "photos": [
+   "assets/photos/47262056_front.jpg",
+   "assets/photos/47262056_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R21",
+  "sport": "Basketball",
+  "player": "Jayson Tatum",
+  "set": "2017 Panini Donruss",
+  "num": "#198",
+  "variant": "Rated Rookie",
+  "grade": "8",
+  "gradeLabel": "NM-MT 8",
+  "cert": "56466159",
+  "img": "assets/photos/56466159_front.jpg",
+  "imgBack": "assets/photos/56466159_back.jpg",
+  "photos": [
+   "assets/photos/56466159_front.jpg",
+   "assets/photos/56466159_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "SGC",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R22",
+  "sport": "UFC",
+  "player": "Khamzat Chimaev",
+  "set": "2021 Panini Chronicles UFC",
+  "num": "#18",
+  "variant": "Crown Royale Pink",
+  "grade": "10",
+  "gradeLabel": "PRISTINE 10",
+  "cert": "4045841",
+  "img": "assets/photos/4045841_front.jpg",
+  "imgBack": "assets/photos/4045841_back.jpg",
+  "photos": [
+   "assets/photos/4045841_front.jpg",
+   "assets/photos/4045841_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R23",
+  "sport": "Basketball",
+  "player": "Ja Morant",
+  "set": "2019 Panini Mosaic",
+  "num": "#219",
+  "variant": "Base",
+  "grade": "9",
+  "gradeLabel": "MINT 9",
+  "cert": "52196482",
+  "img": "assets/photos/52196482_front.jpg",
+  "imgBack": "assets/photos/52196482_back.jpg",
+  "photos": [
+   "assets/photos/52196482_front.jpg",
+   "assets/photos/52196482_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": false,
+  "id": "R24",
+  "sport": "UFC",
+  "player": "Conor McGregor",
+  "set": "2021 Panini Select UFC",
+  "num": "#SP-CMG",
+  "variant": "Sparks Memorabilia 039/149",
+  "grade": "9",
+  "gradeLabel": "MINT 9",
+  "cert": "67158254",
+  "img": "assets/photos/67158254_front.jpg",
+  "imgBack": "assets/photos/67158254_back.jpg",
+  "photos": [
+   "assets/photos/67158254_front.jpg",
+   "assets/photos/67158254_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ],
+  "serial": "039/149"
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": false,
+  "id": "R25",
+  "sport": "UFC",
+  "player": "Conor McGregor",
+  "set": "2022 Panini Donruss UFC",
+  "num": "#27",
+  "variant": "Holo Laser",
+  "grade": "9",
+  "gradeLabel": "MINT 9",
+  "cert": "69468841",
+  "img": "assets/photos/69468841_front.jpg",
+  "imgBack": "assets/photos/69468841_back.jpg",
+  "photos": [
+   "assets/photos/69468841_front.jpg",
+   "assets/photos/69468841_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": false,
+  "id": "R26",
+  "sport": "UFC",
+  "player": "Khabib Nurmagomedov",
+  "set": "2022 Panini Chronicles UFC",
+  "num": "#120",
+  "variant": "Crown Royale Purple 40/49",
+  "grade": "10",
+  "gradeLabel": "GEM MT 10",
+  "cert": "77157989",
+  "img": "assets/photos/77157989_front.jpg",
+  "imgBack": "assets/photos/77157989_back.jpg",
+  "photos": [
+   "assets/photos/77157989_front.jpg",
+   "assets/photos/77157989_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ],
+  "serial": "40/49"
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": false,
+  "id": "R27",
+  "sport": "Non-Sport",
+  "player": "Alice Island",
+  "set": "1986 Topps Garbage Pail Kids",
+  "num": "#113a",
+  "variant": "Stickers – Kid Brother Back",
+  "grade": "9",
+  "gradeLabel": "MINT 9",
+  "cert": "76474315",
+  "img": "assets/photos/76474315_front.jpg",
+  "imgBack": "assets/photos/76474315_back.jpg",
+  "photos": [
+   "assets/photos/76474315_front.jpg",
+   "assets/photos/76474315_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "SGC",
+  "psaVerified": false,
+  "rc": true,
+  "id": "R28",
+  "sport": "Football",
+  "player": "Justin Herbert",
+  "set": "2020 Panini Chronicles",
+  "num": "#GK-3",
+  "variant": "Gridiron Kings",
+  "grade": "10",
+  "gradeLabel": "PRISTINE 10",
+  "cert": "1245347",
+  "img": "assets/photos/1245347_front.jpg",
+  "imgBack": "assets/photos/1245347_back.jpg",
+  "photos": [
+   "assets/photos/1245347_front.jpg",
+   "assets/photos/1245347_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": false,
+  "id": "R29",
+  "sport": "UFC",
+  "player": "Khabib Nurmagomedov",
+  "set": "2022 Panini Donruss UFC",
+  "num": "#11",
+  "variant": "Octagon Marvels",
+  "grade": "9",
+  "gradeLabel": "MINT 9",
+  "cert": "75989542",
+  "img": "assets/photos/75989542_front.jpg",
+  "imgBack": "assets/photos/75989542_back.jpg",
+  "photos": [
+   "assets/photos/75989542_front.jpg",
+   "assets/photos/75989542_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": false,
+  "id": "R30",
+  "sport": "Soccer",
+  "player": "Cristiano Ronaldo",
+  "set": "2022-23 Panini Donruss FIFA",
+  "num": "#18",
+  "variant": "Net Marvels",
+  "grade": "9",
+  "gradeLabel": "MINT 9",
+  "cert": "76170501",
+  "img": "assets/photos/76170501_front.jpg",
+  "imgBack": "assets/photos/76170501_back.jpg",
+  "photos": [
+   "assets/photos/76170501_front.jpg",
+   "assets/photos/76170501_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
+  ]
+ },
+ {
+  "grader": "PSA",
+  "psaVerified": false,
+  "rc": false,
+  "id": "R31",
+  "sport": "UFC",
+  "player": "Jon Jones",
+  "set": "2022 Panini Donruss UFC",
+  "num": "#2",
+  "variant": "Octagon Marvels",
+  "grade": "9",
+  "gradeLabel": "MINT 9",
+  "cert": "75912154",
+  "img": "assets/photos/75912154_front.jpg",
+  "imgBack": "assets/photos/75912154_back.jpg",
+  "photos": [
+   "assets/photos/75912154_front.jpg",
+   "assets/photos/75912154_back.jpg"
+  ],
+  "tradeCats": [
+   "Basketball",
+   "Football",
+   "Pokémon"
   ]
  }
 ]
