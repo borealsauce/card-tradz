@@ -365,7 +365,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "qtyOwned": 3
  },
  {
   "grader": "PSA",

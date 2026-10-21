@@ -44,7 +44,7 @@ function stars(r){var f=Math.round(r),s='';for(var i=1;i<=5;i++)s+=i<=f?'★':'�
 function mergeReal(){var ids=MY.map(function(m){return m.id}),gone=S.mine.filter(function(c){return c.real&&ids.indexOf(c.id)<0}).map(function(c){return c.id});if(gone.length){S.mine=S.mine.filter(function(c){return gone.indexOf(c.id)<0});S.saved=S.saved.filter(function(id){return gone.indexOf(id)<0});save()}
  var seen=S.realSeen||S.mine.filter(function(c){return c.real}).map(function(c){return c.id}),ch=0;
   MY.forEach(function(m,i){var c=S.mine.filter(function(x){return x.id===m.id&&x.real})[0];
-    if(c){['sport','player','set','num','variant','rc','grader','grade','gradeLabel','cert','pop','serial','img','imgBack','psaFront','psaBack','psaVerified','psaImg','sampleImg','placeholderImg','detailsNeeded','ebayItem','ebayUrl','ebayTitle','costNote','qty','certs'].forEach(function(k){if(m[k]!==undefined&&c[k]!==m[k]){c[k]=m[k];ch=1}})}
+    if(c){['sport','player','set','num','variant','rc','grader','grade','gradeLabel','cert','pop','serial','img','imgBack','psaFront','psaBack','psaVerified','psaImg','sampleImg','placeholderImg','detailsNeeded','ebayItem','ebayUrl','ebayTitle','costNote','qty','certs','missingCerts'].forEach(function(k){if(m[k]!==undefined&&c[k]!==m[k]){c[k]=m[k];ch=1}})}
     else if(seen.indexOf(m.id)<0){var n=JSON.parse(JSON.stringify(m));n.real=true;n.owner='you';n.mode='none';n.cost=null;n.costDate=null;n.hideCost=true;n.listPrice=null;n.offers=true;n.nfs=false;n.comps=[];n.price=null;n.hue=(i*57)%360;n.listed=TODAY;n.views=0;var at=0;S.mine.forEach(function(x,j){if(x.real)at=j+1});S.mine.splice(at,0,n);ch=1}
     if(seen.indexOf(m.id)<0)seen.push(m.id)});
   S.realSeen=seen;if(ch)save()}
@@ -700,12 +700,13 @@ function groupSlabs(arr){var seenC={},out=[],byK={};DEDUPE={in:arr.length,droppe
  arr.forEach(function(m){var ce=String(m.cert||'').trim();if(ce&&seenC[ce]){DEDUPE.dropped++;return}if(ce)seenC[ce]=1;
   var k=slabKey(m),g=byK[k];if(g&&m.player){g.qty++;if(ce)g.certs.push(ce);(g.mergedIds=g.mergedIds||[]).push(m.id);return}
   m=JSON.parse(JSON.stringify(m));m.qty=1;m.certs=ce?[ce]:[];byK[k]=m;out.push(m)});
+ out.forEach(function(m){var own=0;arr.forEach(function(x){if(slabKey(x)===slabKey(m)&&x.qtyOwned)own=Math.max(own,+x.qtyOwned)});if(own>m.qty){m.missingCerts=own-m.qty;m.qty=own}else m.missingCerts=0});
  out.forEach(function(m){if(m.qty>1)DEDUPE.merged.push({player:m.player,qty:m.qty,certs:m.certs})});return out}
 function maxQ(c){return Math.max(1,c.qty||1)}
 function cq(c){var q=(S.cartQ||{})[c.id]||1;return Math.min(maxQ(c),Math.max(1,q))}
 function setCQ(id,q){S.cartQ=S.cartQ||{};S.cartQ[id]=Math.min(maxQ(card(id)),Math.max(1,q||1))}
-function qtyBadge(c){return maxQ(c)>1?' <span class="qtyb" title="Certs: '+esc((c.certs||[]).join(', '))+'">×'+maxQ(c)+'</span>':''}
-function qtyStep(c){if(maxQ(c)<2)return '';return '<div class="row" style="margin-top:12px;gap:8px"><b>Quantity</b><span class="qst"><button data-act="boQ" data-v="-1">−</button><input id="boQty" type="number" min="1" max="'+maxQ(c)+'" value="'+cq(c)+'"><button data-act="boQ" data-v="1">＋</button></span><span class="sm mut">of '+maxQ(c)+' available</span></div><div class="sm mut2" style="margin-top:4px">Certs: '+(c.certs||[]).map(function(x){return '<a href="https://www.psacard.com/cert/'+esc(x)+'" target="_blank" rel="noopener">'+esc(x)+'</a>'}).join(', ')+'</div>'}
+function qtyBadge(c){return maxQ(c)>1?' <span class="qtyb" title="Certs: '+esc((c.certs||[]).join(', ')+(c.missingCerts?' + '+c.missingCerts+' not yet added':''))+'">×'+maxQ(c)+'</span>':''}
+function qtyStep(c){if(maxQ(c)<2)return '';return '<div class="row" style="margin-top:12px;gap:8px"><b>Quantity</b><span class="qst"><button data-act="boQ" data-v="-1">−</button><input id="boQty" type="number" min="1" max="'+maxQ(c)+'" value="'+cq(c)+'"><button data-act="boQ" data-v="1">＋</button></span><span class="sm mut">of '+maxQ(c)+' available</span></div><div class="sm mut2" style="margin-top:4px">Certs: '+(c.certs||[]).map(function(x){return '<a href="https://www.psacard.com/cert/'+esc(x)+'" target="_blank" rel="noopener">'+esc(x)+'</a>'}).join(', ')+(c.missingCerts?' · <span class="mut">'+c.missingCerts+' cert'+(c.missingCerts>1?'s':'')+' not yet added</span>':'')+'</div>'}
 A.boQ=function(d){var i=$('#boQty');i.value=Math.min(+i.max,Math.max(1,(+i.value||1)+(+d.v)))};
 A.cqUp=function(d){setCQ(d.id,cq(card(d.id))+1);save();A.cartOpen()};
 A.cqDn=function(d){setCQ(d.id,cq(card(d.id))-1);save();A.cartOpen()};
