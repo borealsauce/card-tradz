@@ -355,8 +355,7 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "75415093",
-  "img": "assets/photos/75415093_front.jpg",
-  "imgBack": "assets/photos/75415093_back.jpg",
+  "img": "assets/stock/75415093.jpg",
   "photos": [
    "assets/photos/75415093_front.jpg",
    "assets/photos/75415093_back.jpg"
@@ -366,7 +365,8 @@
    "Football",
    "Pokémon"
   ],
-  "qtyOwned": 3
+  "qtyOwned": 3,
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -381,8 +381,7 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "66504705",
-  "img": "assets/photos/66504705_front.jpg",
-  "imgBack": "assets/photos/66504705_back.jpg",
+  "img": "assets/stock/66504705.jpg",
   "photos": [
    "assets/photos/66504705_front.jpg",
    "assets/photos/66504705_back.jpg"
@@ -391,7 +390,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -406,8 +406,7 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "60645909",
-  "img": "assets/photos/60645909_front.jpg",
-  "imgBack": "assets/photos/60645909_back.jpg",
+  "img": "assets/stock/60645909.jpg",
   "photos": [
    "assets/photos/60645909_front.jpg",
    "assets/photos/60645909_back.jpg"
@@ -416,7 +415,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -431,8 +431,7 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "92212212",
-  "img": "assets/photos/92212212_front.jpg",
-  "imgBack": "assets/photos/92212212_back.jpg",
+  "img": "assets/stock/92212212.jpg",
   "photos": [
    "assets/photos/92212212_front.jpg",
    "assets/photos/92212212_back.jpg"
@@ -441,7 +440,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -456,8 +456,7 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "90712038",
-  "img": "assets/photos/90712038_front.jpg",
-  "imgBack": "assets/photos/90712038_back.jpg",
+  "img": "assets/stock/90712038.jpg",
   "photos": [
    "assets/photos/90712038_front.jpg",
    "assets/photos/90712038_back.jpg"
@@ -466,7 +465,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -481,8 +481,7 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "56466129",
-  "img": "assets/photos/56466129_front.jpg",
-  "imgBack": "assets/photos/56466129_back.jpg",
+  "img": "assets/stock/56466129.jpg",
   "photos": [
    "assets/photos/56466129_front.jpg",
    "assets/photos/56466129_back.jpg"
@@ -491,7 +490,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -506,8 +506,7 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "46763367",
-  "img": "assets/photos/46763367_front.jpg",
-  "imgBack": "assets/photos/46763367_back.jpg",
+  "img": "assets/stock/46763367.jpg",
   "photos": [
    "assets/photos/46763367_front.jpg",
    "assets/photos/46763367_back.jpg"
@@ -516,7 +515,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -531,8 +531,7 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "47262056",
-  "img": "assets/photos/47262056_front.jpg",
-  "imgBack": "assets/photos/47262056_back.jpg",
+  "img": "assets/stock/47262056.jpg",
   "photos": [
    "assets/photos/47262056_front.jpg",
    "assets/photos/47262056_back.jpg"
@@ -541,7 +540,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -556,8 +556,7 @@
   "grade": "8",
   "gradeLabel": "NM-MT 8",
   "cert": "56466159",
-  "img": "assets/photos/56466159_front.jpg",
-  "imgBack": "assets/photos/56466159_back.jpg",
+  "img": "assets/stock/56466159.jpg",
   "photos": [
    "assets/photos/56466159_front.jpg",
    "assets/photos/56466159_back.jpg"
@@ -566,7 +565,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "SGC",
@@ -581,8 +581,7 @@
   "grade": "10",
   "gradeLabel": "PRISTINE 10",
   "cert": "4045841",
-  "img": "assets/photos/4045841_front.jpg",
-  "imgBack": "assets/photos/4045841_back.jpg",
+  "img": "assets/stock/4045841.jpg",
   "photos": [
    "assets/photos/4045841_front.jpg",
    "assets/photos/4045841_back.jpg"
@@ -591,7 +590,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -606,8 +606,7 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "52196482",
-  "img": "assets/photos/52196482_front.jpg",
-  "imgBack": "assets/photos/52196482_back.jpg",
+  "img": "assets/stock/52196482.jpg",
   "photos": [
    "assets/photos/52196482_front.jpg",
    "assets/photos/52196482_back.jpg"
@@ -616,7 +615,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -631,8 +631,7 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "67158254",
-  "img": "assets/photos/67158254_front.jpg",
-  "imgBack": "assets/photos/67158254_back.jpg",
+  "img": "assets/stock/67158254.jpg",
   "photos": [
    "assets/photos/67158254_front.jpg",
    "assets/photos/67158254_back.jpg"
@@ -642,7 +641,8 @@
    "Football",
    "Pokémon"
   ],
-  "serial": "039/149"
+  "serial": "039/149",
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -657,8 +657,7 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "69468841",
-  "img": "assets/photos/69468841_front.jpg",
-  "imgBack": "assets/photos/69468841_back.jpg",
+  "img": "assets/stock/69468841.jpg",
   "photos": [
    "assets/photos/69468841_front.jpg",
    "assets/photos/69468841_back.jpg"
@@ -667,7 +666,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -682,8 +682,7 @@
   "grade": "10",
   "gradeLabel": "GEM MT 10",
   "cert": "77157989",
-  "img": "assets/photos/77157989_front.jpg",
-  "imgBack": "assets/photos/77157989_back.jpg",
+  "img": "assets/stock/77157989.jpg",
   "photos": [
    "assets/photos/77157989_front.jpg",
    "assets/photos/77157989_back.jpg"
@@ -693,7 +692,8 @@
    "Football",
    "Pokémon"
   ],
-  "serial": "40/49"
+  "serial": "40/49",
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -733,8 +733,7 @@
   "grade": "10",
   "gradeLabel": "PRISTINE 10",
   "cert": "1245347",
-  "img": "assets/photos/1245347_front.jpg",
-  "imgBack": "assets/photos/1245347_back.jpg",
+  "img": "assets/stock/1245347.jpg",
   "photos": [
    "assets/photos/1245347_front.jpg",
    "assets/photos/1245347_back.jpg"
@@ -743,7 +742,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -758,8 +758,7 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "75989542",
-  "img": "assets/photos/75989542_front.jpg",
-  "imgBack": "assets/photos/75989542_back.jpg",
+  "img": "assets/stock/75989542.jpg",
   "photos": [
    "assets/photos/75989542_front.jpg",
    "assets/photos/75989542_back.jpg"
@@ -768,7 +767,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -783,8 +783,7 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "76170501",
-  "img": "assets/photos/76170501_front.jpg",
-  "imgBack": "assets/photos/76170501_back.jpg",
+  "img": "assets/stock/76170501.jpg",
   "photos": [
    "assets/photos/76170501_front.jpg",
    "assets/photos/76170501_back.jpg"
@@ -793,7 +792,8 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  },
  {
   "grader": "PSA",
@@ -808,8 +808,7 @@
   "grade": "9",
   "gradeLabel": "MINT 9",
   "cert": "75912154",
-  "img": "assets/photos/75912154_front.jpg",
-  "imgBack": "assets/photos/75912154_back.jpg",
+  "img": "assets/stock/75912154.jpg",
   "photos": [
    "assets/photos/75912154_front.jpg",
    "assets/photos/75912154_back.jpg"
@@ -818,6 +817,7 @@
    "Basketball",
    "Football",
    "Pokémon"
-  ]
+  ],
+  "stockImg": true
  }
 ]
