@@ -261,3 +261,10 @@ body.obmode .topbar,body.obmode .tabbar{display:none}
 .pc .ofp2{display:inline-flex;align-items:center;gap:8px;background:none;border:0;padding:0;cursor:pointer;font-size:28px;font-weight:800;color:#0b0d12;line-height:1;white-space:nowrap}
 .pc .ofp2 .oftag{font-size:16px;padding:4px 10px;border-radius:8px;color:#fff;margin:0}
 @media (max-width:420px){.pc .ofp2{font-size:22px}.pc .ofp2 .oftag{font-size:12px;padding:3px 7px}.pc .ofgrp2 .ofl{font-size:11px}}
+/* popover: fixed, viewport-clamped */
+.cpop.fx{position:fixed!important;right:auto!important;bottom:auto!important;z-index:200;min-width:0;width:max-content;max-width:calc(100vw - 16px)}
+.cpop table.mini{width:auto}.cpop table.mini td,.cpop table.mini th{white-space:nowrap;padding:3px 8px}
+.stkpill{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:600;color:#6b7280;background:#eef0f3;border-radius:999px;padding:3px 9px;white-space:nowrap}
+.stkpill i{width:10px;height:10px;border:2px solid #c7cbd3;border-top-color:#6d4aff;border-radius:50%;animation:stkspin .8s linear infinite}
+@keyframes stkspin{to{transform:rotate(360deg)}}
+.rtile:has(.cfig:hover),.rtile:has(.cfig.open),.rtile:has(.cfig:focus),.pc:has(.cfig.open){z-index:60}
